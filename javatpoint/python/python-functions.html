@@ -1,0 +1,643 @@
+
+ <!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Python Functions - ITM e-Learning</title><link rel="SHORTCUT ICON" href="./images/favicon2.png"/>
+<link rel="stylesheet" type="text/css" href="./css/link.css"/><link rel="dns-prefetch" href="https://clients1.google.com"><link rel="dns-prefetch" href="https://static.javatpoint.com"><link rel="dns-prefetch" href="https://googleads.g.doubleclick.net"><link rel="dns-prefetch" href="https://www.google.com"><link rel="dns-prefetch" href="https://feedify.net"><meta name="theme-color" content="#4CAF50"/><meta property="og:title" content="Learn Python Tutorial - javatpoint" /><meta property="og:description" content="Learn Python Tutorial for beginners and professional with various python topics such as loops, strings, lists, dictionary, tuples, date, time, files, functions, modules, methods, exceptions etc." />
+<meta name="keywords" content="python, tutorial, examples, programs, language, beginners, introduction, strings, lists, dictionary, tuples, date, time"/><meta name="description" content="Learn Python Tutorial for beginners and professional with various python topics such as loops, strings, lists, dictionary, tuples, date, time, files, functions, modules, methods, exceptions etc."/><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="canonical" href="python-tutorial.html" />
+
+
+<link href="./css/manifest.json" rel="manifest">
+<script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/37784/adRecover.js?ts=1543562646174'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
+<script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//cdn.adpushup.com/37780/adpushup.js'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
+</head> 
+<body onload="highlightlink()"> 
+ 
+
+            <div style="float:left;width:60%;">
+<script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+                
+            </div>
+            
+        </td>
+    </tr>
+        
+</table> </div>
+
+<div style="margin:0px;padding:0px;clear:both">
+<script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+
+</div>
+</div>
+
+<div class="mobilemenu" style="clear:both"> 
+<!-- Cm_300x250_Mob_14/9 -->
+<ins class="adPushupAds" data-adpControl="hqdgs" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDbV8zMDB4MjUwX01vYl8xNC85IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MzAwcHg7aGVpZ2h0OjI1MHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjcwMTQyNzI1MTkiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+</div>
+
+<div id="menu">
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Python Tutorial</span></h2>
+</div>
+
+<div class="leftmenu">
+<a href="python.html">Python Tutorial</a>
+<a href="python-features.html" >Python Features</a>
+<a href="python-history.html" >Python History</a>
+<a href="python-applications.html" >Python Applications</a>
+<a href="how-to-install-python.html" >Python Install</a>
+<a href="python-example.html" >Python Example</a>
+<a href="python-variables.html" >Python Variables</a>
+<a href="python-data-types.html" >Python Data Types</a>
+<a href="python-keywords.html" >Python Keywords</a>
+<a href="python-literals.html" >Python Literals</a>
+<a href="python-operators.html" >Python Operators</a>
+<a href="python-comments.html" >Python Comments</a>
+<a href="python-if-else.html" >Python If else</a>
+<a href="python-loops.html" >Python Loops</a>
+<a href="python-for-loop.html" >Python For Loop</a>
+<a href="python-while-loop.html" >Python While Loop</a>
+<a href="python-break.html" >Python Break</a>
+<a href="python-continue.html" >Python Continue</a>
+<a href="python-pass.html" >Python Pass</a>
+<a href="python-strings.html"><span>Python Strings</span></a>
+<a href="python-lists.html"><span>Python Lists</span></a>
+<a href="python-tuples.html"><span>Python Tuples</span></a>
+<a href="python-set.html"><span>Python Sets</span></a>
+<a href="python-dictionary.html"><span>Python Dictionary</span></a>
+<a href="python-functions.html"><span>Python Functions</span></a> 
+<a href="python-built-in-functions.html"><span>Python Built-in Functions</span></a>
+<a href="python-lambda-functions.html"><span>Python Lambda Functions</span></a>
+<a href="python-files-io.html"><span>Python Files I/O</span></a>
+<a href="python-modules.html"><span>Python Modules</span></a>
+<a href="python-exception-handling.html
+"><span>Python Exceptions</span></a>
+<a href="python-date.html"><span>Python Date</span></a>
+<a href="python-regex.html">Python Regex</a>
+<a href="python-sending-email.html">Python Sending Email</a>
+
+<a href="python-read-csv-file.html">Read CSV File</a>
+<a href="python-write-csv-file.html">Write CSV File</a>
+<a href="python-read-excel-file.html">Read Excel File</a>
+<a href="python-write-excel-file.html">Write Excel File</a>
+<a href="python-assert-keyword.html">Python Assert</a>
+
+<a href="python-list-comprehension.html">Python List Comprehension</a>
+<a href="python-collection-module.html">Python Collection Module</a>
+<a href="python-math-module.html">Python Math Module</a>
+<a href="python-os-module.html">Python OS Module</a>
+<a href="python-random-module.html">Python Random Module</a>
+<a href="python-statistics-module.html">Python Statistics Module</a>
+<a href="python-sys-module.html">Python Sys Module</a>
+
+<a href="python-ides.html">Python IDEs</a>
+
+<a href="python-arrays.html">Python Arrays</a>
+<a href="python-command-line-arguments.html">Command Line Arguments</a>
+<a href="python-magic-method.html">Python Magic Method</a>
+<a href="python-stack-and-queue.html">Python Stack &amp; Queue</a>
+
+<a href="pyspark-mllib.html">PySpark MLlib</a>
+<a href="python-decorator.html">Python Decorator</a>
+<a href="python-generators.html">Python Generators</a>
+<a href="web-scraping-using-python.html">Web Scraping Using Python</a>
+<a href="python-json.html">Python JSON</a>
+<a href="python-itertools.html">Python Itertools</a>
+</div>
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Python OOPs</span></h2>
+</div>
+
+<div class="leftmenu"  >
+<a href="python-oops-concepts.html" >Python OOPs Concepts</a>
+<a href="python-objects-classes.html" >Python Object Class</a>
+<a href="python-constructors.html" >Python Constructors</a>
+<a href="inheritance-in-python.html" >Python Inheritance</a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python MySQL</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-mysql-environment-setup.html">Environment Setup</a>
+<a href="python-mysql-database-connection.html">Database Connection</a>
+<a href="python-mysql-creating-new-database.html">Creating New Database</a>
+<a href="python-mysql-creating-tables.html">Creating Tables</a>
+<a href="python-mysql-insert-operation.html">Insert Operation</a>
+<a href="python-mysql-read-operation.html">Read Operation</a>
+<a href="python-mysql-update-operation.html">Update Operation</a>
+<a href="python-mysql-join-operation.html">Join Operation</a>
+<a href="python-mysql-performing-transactions.html">Performing Transactions</a>
+</div>
+
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python MongoDB</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-mongodb.html">Python MongoDB</a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python SQLite</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-sqlite.html">Python SQLite</a>
+</div>
+
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python Tkinter (GUI)</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-tkinter.html">Python Tkinter</a>
+<a href="python-tkinter-button.html">Tkinter Button</a>
+<a href="python-tkinter-canvas.html">Tkinter Canvas</a>
+<a href="python-tkinter-checkbutton.html">Tkinter Checkbutton</a>
+<a href="python-tkinter-entry.html">Tkinter Entry</a>
+<a href="python-tkinter-frame.html">Tkinter Frame</a>
+<a href="python-tkinter-label.html">Tkinter Label</a>
+
+<a href="python-tkinter-listbox.html">Tkinter Listbox</a>
+<a href="python-tkinter-menubutton.html">Tkinter Menubutton</a>
+
+<a href="python-tkinter-menu.html">Tkinter Menu</a>
+<a href="python-tkinter-message.html">Tkinter Message</a>
+<a href="python-tkinter-radiobutton.html">Tkinter Radiobutton</a>
+
+<a href="python-tkinter-scale.html">Tkinter Scale</a>
+<a href="python-tkinter-scrollbar.html">Tkinter Scrollbar</a>
+<a href="python-tkinter-text.html">Tkinter Text</a>
+<a href="python-tkinter-toplevel.html">Tkinter Toplevel</a>
+<a href="python-tkinter-spinbox.html">Tkinter Spinbox</a>
+
+<a href="python-tkinter-panedwindow.html">Tkinter PanedWindow</a>
+<a href="python-tkinter-labelframe.html">Tkinter LabelFrame</a>
+<a href="python-tkinter-messagebox.html">Tkinter MessageBox</a>
+
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python Web Blocker</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-website-blocker.html">Introduction</a>
+<a href="python-website-blocker-building-python-script.html">Building Python Script</a>
+<a href="python-website-blocker-script-deployment-on-linux.html">Script Deployment on Linux</a>
+<a href="python-website-blocker-script-deployment-on-windows.html">Script Deployment on Windows</a>
+</div>
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Related Tutorials</span></h2>
+</div>
+
+<div class="leftmenu"  >
+<a href="numpy-tutorial.html"><span>NumPy Tutorial</span></a>
+<a href="django-tutorial.html"><span>Django Tutorial</span></a>
+<a href="flask-tutorial.html"><span>Flask Tutorial</span></a>
+
+<a href="python-pandas.html"><span>Pandas Tutorial</span></a>
+<a href="pytorch.html"><span>Pytorch Tutorial</span></a>
+<a href="pygame.html"><span>Pygame Tutorial</span></a>
+<a href="matplotlib.html"><span>Matplotlib Tutorial</span></a>
+<a href="opencv.html"><span>OpenCV Tutorial</span></a>
+<a href="python-openpyxl.html"><span>Openpyxl Tutorial</span></a>
+
+</div>
+
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Python Programs</span></h2>
+</div>
+
+<div class="leftmenu"  >
+<a href="python-programs.html"><span>Python Programs</span></a>
+</div>
+
+
+<div id="leftad" style="margin-left:20px">
+<!-- javatpointleft -->
+<ins class="adPushupAds" data-adpControl="g8drp" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBqYXZhdHBvaW50bGVmdCAtLT4KPGlucyBjbGFzcz0iYWRzYnlnb29nbGUiCiAgICAgc3R5bGU9ImRpc3BsYXk6aW5saW5lLWJsb2NrO3dpZHRoOjE2MHB4O2hlaWdodDo2MDBweCIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI0NDc2NDAxMjIyIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+</div>
+</div>
+<div class="onlycontent">
+<div class="onlycontentad">
+<!-- CM_JTP_Leaderbaord -->
+<ins class="adPushupAds" data-adpControl="nuoc1" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDTV9KVFBfTGVhZGVyYmFvcmQgLS0+CjxpbnMgY2xhc3M9ImFkc2J5Z29vZ2xlIgogICAgIHN0eWxlPSJkaXNwbGF5OmJsb2NrIgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjkyMDE5MDE5MTUiCiAgICAgZGF0YS1hZC1mb3JtYXQ9ImF1dG8iCiAgICAgZGF0YS1mdWxsLXdpZHRoLXJlc3BvbnNpdmU9InRydWUiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+</div>
+<div class="onlycontentinner">
+<div id="city">
+<table>
+<tr><td>
+<div id="bottomnextup">
+<a class="next" href="python-built-in-functions.html">next &rarr;</a>
+<a class="next" href="python-dictionary.html">&larr; prev</a>
+</div>
+
+<h1 class="h1">Python Functions</h1>
+<p>Functions are the most important aspect of an application. A function can be defined as the organized block of reusable code which can be called whenever required.</p> 
+<p>Python allows us to divide a large program into the basic building blocks known as function. The function contains the set of programming statements enclosed by {}. A function can be called multiple times to provide reusability and modularity to the python program.</p> 
+<p>In other words, we can say that the collection of functions creates a program. The function is also known as procedure or subroutine in other programming languages.</p>
+<p>Python provide us various inbuilt functions like range() or print(). Although, the user can create its functions which can be called user-defined functions.</p>
+
+<h2 class="h2">Advantage of Functions in Python</h2>
+<p>There are the following advantages of Python functions.</p>
+<ul class="points">
+<li>By using functions, we can avoid rewriting same logic/code again and again in a program.</li>
+<li>We can call python functions any number of times in a program and from any place in a program.</li>
+<li>We can track a large python program easily when it is divided into multiple functions.</li>
+<li>Reusability is the main achievement of python functions.</li>
+<li>However, Function calling is always overhead in a python program.</li>
+</ul>
+
+<h2 class="h2">Creating a function </h2>
+<p>In python, we can use <strong>def</strong> keyword to define the function. The syntax to define a function in python is given below.</p>
+<div class="codeblock"><textarea name="code" class="python">
+def my_function():
+	function-suite 
+	return &lt;expression&gt; 
+</textarea></div>
+<p>The function block is started with the colon (:) and all the same level block statements remain at the same indentation.<p> 
+<p>A function can accept any number of parameters that must be the same in the definition and function calling.</p> 
+
+<h2 class="h2">Function calling</h2>
+<p>In python, a function must be defined before the function calling otherwise the python interpreter gives an error. Once the function is defined, we can call it from another function or the python prompt.  To call the function, use the function name followed by the parentheses.</p> 
+<p>A simple function that prints the message "Hello Word" is given below.</p> 
+<div class="codeblock"><textarea name="code" class="python">
+def hello_world():
+	print("hello world")
+
+hello_world()  
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+hello world
+</pre></div>
+
+<h2 class="h2">Parameters in function</h2>
+<p>The information into the functions can be passed as the parameters. The parameters are specified in the parentheses. We can give any number of parameters, but we have to separate them with a comma.</p> 
+<p>Consider the following example which contains a function that accepts a string as the parameter and prints it.
+</p>
+<h2 class="h3">Example 1</h2>
+<div class="codeblock"><textarea name="code" class="python">
+#defining the function
+def func (name):
+	print("Hi ",name);
+
+#calling the function 
+func("Ayush") 
+</textarea></div>
+<h2 class="h3">Example 2</h2>
+<div class="codeblock"><textarea name="code" class="python">
+#python function to calculate the sum of two variables 
+#defining the function
+def sum (a,b):
+	return a+b;
+
+#taking values from the user
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+
+#printing the sum of a and b
+print("Sum = ",sum(a,b))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+Enter a: 10
+Enter b: 20
+Sum =  30
+</pre></div>
+
+<h2 class="h2">Call by reference in Python </h2>
+<p>In python, all the functions are called by reference, i.e., all the changes made to the reference inside the function revert back to the original value referred by the reference.</p> 
+<p>However, there is an exception in the case of mutable objects since the changes made to the mutable objects like string do not revert to the original string rather, a new string object is made, and therefore the two different objects are printed.</p>  
+<h2 class="h3">Example 1 Passing Immutable Object (List) </h2>
+<div class="codeblock"><textarea name="code" class="python">
+#defining the function
+def change_list(list1):
+	list1.append(20);
+	list1.append(30);
+	print("list inside function = ",list1)
+
+#defining the list
+list1 = [10,30,40,50]
+
+#calling the function 
+change_list(list1);
+print("list outside function = ",list1);
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+list inside function =  [10, 30, 40, 50, 20, 30]
+list outside function =  [10, 30, 40, 50, 20, 30]
+</pre></div>
+<h2 class="h3">Example 2 Passing Mutable Object (String) </h2>
+<div class="codeblock"><textarea name="code" class="python">
+#defining the function
+def change_string (str):
+	str = str + " Hows you";
+	print("printing the string inside function :",str);
+
+string1 = "Hi I am there"
+
+#calling the function
+change_string(string1)
+
+print("printing the string outside function :",string1)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+printing the string inside function : Hi I am there Hows you
+printing the string outside function : Hi I am there
+</pre></div>
+
+<h2 class="h2">Types of arguments </h2>
+<p>There may be several types of arguments which can be passed at the time of function calling.</p>
+<ol class="points">
+<li>Required arguments</li>
+<li>Keyword arguments</li>
+<li>Default arguments</li>
+<li>Variable-length arguments</li>
+</ol>
+
+<h2 class="h2">Required Arguments</h2>
+<p>Till now, we have learned about function calling in python.  However, we can provide the arguments at the time of function calling. As far as the required arguments are concerned, these are the arguments which are required to be passed at the time of function calling with the exact match of their positions in the function call and function definition. If either of the arguments is not provided in the function call, or the position of the arguments is changed, then the python interpreter will show the error.</p>
+<p>Consider the following example.</p> 
+<h2 class="h3">Example 1</h2>
+<div class="codeblock"><textarea name="code" class="python">
+#the argument name is the required argument to the function func 
+def func(name):
+    message = "Hi "+name;
+    return message;
+name = input("Enter the name?")
+print(func(name))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+Enter the name?John
+Hi John
+</pre></div>
+<h2 class="h3">Example 2</h2>
+<div class="codeblock"><textarea name="code" class="python">
+#the function simple_interest accepts three arguments and returns the simple interest accordingly
+def simple_interest(p,t,r):
+    return (p*t*r)/100
+p = float(input("Enter the principle amount? "))
+r = float(input("Enter the rate of interest? "))
+t = float(input("Enter the time in years? "))
+print("Simple Interest: ",simple_interest(p,r,t))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+Enter the principle amount? 10000
+Enter the rate of interest? 5
+Enter the time in years? 2
+Simple Interest:  1000.0
+</pre></div>
+<h2 class="h3">Example 3</h2>
+<div class="codeblock"><textarea name="code" class="python">
+#the function calculate returns the sum of two arguments a and b
+def calculate(a,b):
+    return a+b
+calculate(10) # this causes an error as we are missing a required arguments b.
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+TypeError: calculate() missing 1 required positional argument: 'b'
+</pre></div>
+
+<h2 class="h2">Keyword arguments</h2>
+<p>Python allows us to call the function with the keyword arguments. This kind of function call will enable us to pass the arguments in the random order.</p> 
+<p>The name of the arguments is treated as the keywords and matched in the function calling and definition. If the same match is found, the values of the arguments are copied in the function definition.</p> 
+<p>Consider the following example.</p>
+<h2 class="h3">Example 1</h2>
+<div class="codeblock"><textarea name="code" class="python">
+#function func is called with the name and message as the keyword arguments
+def func(name,message):
+    print("printing the message with",name,"and ",message)
+func(name = "John",message="hello") #name and message is copied with the values John and hello respectively
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+printing the message with John and  hello
+</pre></div>
+
+<h2 class="h3">Example 2 providing the values in different order at the calling </h2>
+<div class="codeblock"><textarea name="code" class="python">
+#The function simple_interest(p, t, r) is called with the keyword arguments the order of arguments doesn't matter in this case
+def simple_interest(p,t,r):
+    return (p*t*r)/100
+print("Simple Interest: ",simple_interest(t=10,r=10,p=1900)) 
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+Simple Interest:  1900.0
+</pre></div>
+<p>If we provide the different name of arguments at the time of function call, an error will be thrown.</p> 
+<p>Consider the following example.</p> 
+<h2 class="h3">Example 3</h2>
+<div class="codeblock"><textarea name="code" class="python">
+#The function simple_interest(p, t, r) is called with the keyword arguments. 
+def simple_interest(p,t,r):
+    return (p*t*r)/100
+
+print("Simple Interest: ",simple_interest(time=10,rate=10,principle=1900)) # doesn't find the exact match of the name of the arguments (keywords)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+TypeError: simple_interest() got an unexpected keyword argument 'time'
+</pre></div>
+<p>The python allows us to provide the mix of the required arguments and keyword arguments at the time of function call. However, the required argument must not be given after the keyword argument, i.e., once the keyword argument is encountered in the function call,  the following arguments must also be the keyword arguments.</p> 
+<p>Consider the following example.</p>
+<h2 class="h3">Example 4</h2>
+<div class="codeblock"><textarea name="code" class="python">
+def func(name1,message,name2):
+    print("printing the message with",name1,",",message,",and",name2)
+func("John",message="hello",name2="David") #the first argument is not the keyword argument
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+printing the message with John , hello ,and David
+</pre></div>
+<p>The following example will cause an error due to an in-proper mix of keyword and required arguments being passed in the function call.</p>
+<h2 class="h3">Example 5</h2>
+<div class="codeblock"><textarea name="code" class="python">
+def func(name1,message,name2):
+    print("printing the message with",name1,",",message,",and",name2)
+func("John",message="hello","David")   
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+SyntaxError: positional argument follows keyword argument
+</pre></div>
+
+<h2 class="h2">Default Arguments </h2>
+<p>Python allows us to initialize the arguments at the function definition. If the value of any of the argument is not provided at the time of function call, then that argument can be initialized with the value given in the definition even if the argument is not specified at the function call.</p> 
+<h2 class="h3">Example 1</h2>
+<div class="codeblock"><textarea name="code" class="python">
+def printme(name,age=22):
+    print("My name is",name,"and age is",age)
+printme(name = "john") #the variable age is not passed into the function however the default value of age is considered in the function
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+My name is john and age is 22
+</pre></div>
+<h2 class="h3">Example 2</h2>
+<div class="codeblock"><textarea name="code" class="python">
+def printme(name,age=22):
+    print("My name is",name,"and age is",age)
+printme(name = "john") #the variable age is not passed into the function however the default value of age is considered in the function
+printme(age = 10,name="David") #the value of age is overwritten here, 10 will be printed as age
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+My name is john and age is 22
+My name is David and age is 10
+</pre></div>
+
+<h2 class="h2">Variable length Arguments </h2>
+<p>In the large projects, sometimes we may not know the number of arguments to be passed in advance. In such cases, Python provides us the flexibility to provide the comma separated values which are internally treated as tuples at the function call.</p> 
+<p>However, at the function definition, we have to define the variable with * (star) as *&lt;variable - name &gt;.</p> 
+<p>Consider the following example.</p>
+<h2 class="h3">Example </h2>
+<div class="codeblock"><textarea name="code" class="python">
+def printme(*names):
+    print("type of passed argument is ",type(names))
+    print("printing the passed arguments...")
+    for name in names:
+        print(name)
+printme("john","David","smith","nick")
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+type of passed argument is  &lt;class 'tuple'&gt;
+printing the passed arguments...
+john
+David
+smith
+nick
+</pre></div>
+
+<h2 class="h2">Scope of variables</h2>
+<p>The scopes of the variables depend upon the location where the variable is being declared. The variable declared in one part of the program may not be accessible to the other parts.</p> 
+<p>In python, the variables are defined with the two types of scopes.</p>
+<ol class="points">
+<li>Global variables</li>
+<li>Local variables</li>
+</ol>
+<p>The variable defined outside any function is known to have a global scope whereas the variable defined inside a function is known to have a local scope.</p> 
+<p>Consider the following example.</p>
+<h2 class="h3">Example 1</h2>
+<div class="codeblock"><textarea name="code" class="python">
+def print_message():
+    message = "hello !! I am going to print a message." # the variable message is local to the function itself
+    print(message)
+print_message()
+print(message) # this will cause an error since a local variable cannot be accessible here. 
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+hello !! I am going to print a message.
+  File "/root/PycharmProjects/PythonTest/Test1.py", line 5, in <module>
+    print(message)
+NameError: name 'message' is not defined
+</pre></div>
+<h2 class="h3">Example 2</h2>
+<div class="codeblock"><textarea name="code" class="python">
+def calculate(*args):
+    sum=0
+    for arg in args:
+        sum = sum +arg
+    print("The sum is",sum)
+sum=0
+calculate(10,20,30) #60 will be printed as the sum
+print("Value of sum outside the function:",sum) # 0 will be printed
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+The sum is 60
+Value of sum outside the function: 0
+</pre></div>
+
+<div class="nexttopicdiv">
+<span class="nexttopictext">Next Topic</span><span class="nexttopiclink"><a href="python-built-in-functions.html">Python Built-in Functions</a></span>
+</div>
+
+<!-- link -->
+<br/><br/>
+<div id="bottomnext">
+<a style="float:left" class="next" href="python-dictionary.html">&larr; prev</a>
+<a style="float:right" class="next" href="python-built-in-functions.html">next &rarr;</a>
+</div>
+
+<br/><br/>
+</td></tr>
+</table>
+</div>
+
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- AP_37780_300x250(0) -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4699858549023382"
+     data-ad-slot="5022809933"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+ 
+</div>
+
+
+<br><br/><div class="mobilemenu" style="clear:both">
+<ins class="adPushupAds" data-adpControl="jrfe7" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByZXNwb25zaXZlbW9iaWxlZm9vdGVyIC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTpibG9jayIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI4MjIyODY2MzE4IgogICAgIGRhdGEtYWQtZm9ybWF0PSJhdXRvIgogICAgIGRhdGEtZnVsbC13aWR0aC1yZXNwb25zaXZlPSJ0cnVlIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+</div></div>
+
+<div id="right">
+
+<ins class="adPushupAds" data-adpControl="am3c1" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBuZXdyaWdodCAtLT4KPGlucyBjbGFzcz0iYWRzYnlnb29nbGUiCiAgICAgc3R5bGU9ImRpc3BsYXk6YmxvY2siCiAgICAgZGF0YS1hZC1jbGllbnQ9ImNhLXB1Yi00Njk5ODU4NTQ5MDIzMzgyIgogICAgIGRhdGEtYWQtc2xvdD0iNjAzNDkxMjU0MSIKICAgICBkYXRhLWFkLWZvcm1hdD0iYXV0byIKICAgICBkYXRhLWZ1bGwtd2lkdGgtcmVzcG9uc2l2ZT0idHJ1ZSI+PC9pbnM+CjxzY3JpcHQ+CihhZHNieWdvb2dsZSA9IHdpbmRvdy5hZHNieWdvb2dsZSB8fCBbXSkucHVzaCh7fSk7Cjwvc2NyaXB0Pg=="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+<br/><br/>
+
+<ins class="adPushupAds" data-adpControl="am3c1" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBuZXdyaWdodCAtLT4KPGlucyBjbGFzcz0iYWRzYnlnb29nbGUiCiAgICAgc3R5bGU9ImRpc3BsYXk6YmxvY2siCiAgICAgZGF0YS1hZC1jbGllbnQ9ImNhLXB1Yi00Njk5ODU4NTQ5MDIzMzgyIgogICAgIGRhdGEtYWQtc2xvdD0iNjAzNDkxMjU0MSIKICAgICBkYXRhLWFkLWZvcm1hdD0iYXV0byIKICAgICBkYXRhLWZ1bGwtd2lkdGgtcmVzcG9uc2l2ZT0idHJ1ZSI+PC9pbnM+CjxzY3JpcHQ+CihhZHNieWdvb2dsZSA9IHdpbmRvdy5hZHNieWdvb2dsZSB8fCBbXSkucHVzaCh7fSk7Cjwvc2NyaXB0Pg=="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+<br/><br/>
+</div>
+
+<div class="right1024" style="float:left;margin-left:10px;margin-top:120px;">
+<!-- right1024only -->
+<ins class="adPushupAds" data-adpControl="6d5qg" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+<br/><br/>
+<ins class="adPushupAds" data-adpControl="6d5qg" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+</div>
+<br/>
+
+</div>
+</div>
+</div>
+<script src="./js/shcoreandbrush.js">
+</script>
+<script>dp.SyntaxHighlighter.HighlightAll('code'); 
+</script>
+<script src=".js/lazysizes.min.js">-->
+<script src="./js/lazysizes.min.js" async></script>
+</body> 
+</html> 

@@ -1,0 +1,723 @@
+
+ <!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Web Scraping Using Python - ITM e-Learning</title><link rel="SHORTCUT ICON" href="./images/favicon2.png"/>
+<link rel="stylesheet" type="text/css" href="./css/link.css"/><link rel="dns-prefetch" href="https://clients1.google.com"><link rel="dns-prefetch" href="https://static.javatpoint.com"><link rel="dns-prefetch" href="https://googleads.g.doubleclick.net"><link rel="dns-prefetch" href="https://www.google.com"><link rel="dns-prefetch" href="https://feedify.net"><meta name="theme-color" content="#4CAF50"/><meta property="og:title" content="Learn Python Tutorial - javatpoint" /><meta property="og:description" content="Learn Python Tutorial for beginners and professional with various python topics such as loops, strings, lists, dictionary, tuples, date, time, files, functions, modules, methods, exceptions etc." />
+<meta name="keywords" content="python, tutorial, examples, programs, language, beginners, introduction, strings, lists, dictionary, tuples, date, time"/><meta name="description" content="Learn Python Tutorial for beginners and professional with various python topics such as loops, strings, lists, dictionary, tuples, date, time, files, functions, modules, methods, exceptions etc."/><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="canonical" href="python-tutorial.html" />
+
+
+<link href="./css/manifest.json" rel="manifest">
+<script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/37784/adRecover.js?ts=1543562646174'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
+<script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//cdn.adpushup.com/37780/adpushup.js'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
+</head> 
+<body onload="highlightlink()"> 
+ 
+
+            <div style="float:left;width:60%;">
+<script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+                
+            </div>
+            
+        </td>
+    </tr>
+        
+</table> </div>
+
+<div style="margin:0px;padding:0px;clear:both">
+<script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+
+</div>
+</div>
+
+<div class="mobilemenu" style="clear:both"> 
+<!-- Cm_300x250_Mob_14/9 -->
+<ins class="adPushupAds" data-adpControl="hqdgs" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDbV8zMDB4MjUwX01vYl8xNC85IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MzAwcHg7aGVpZ2h0OjI1MHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjcwMTQyNzI1MTkiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+</div>
+
+<div id="menu">
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Python Tutorial</span></h2>
+</div>
+
+<div class="leftmenu">
+<a href="python.html">Python Tutorial</a>
+<a href="python-features.html" >Python Features</a>
+<a href="python-history.html" >Python History</a>
+<a href="python-applications.html" >Python Applications</a>
+<a href="how-to-install-python.html" >Python Install</a>
+<a href="python-example.html" >Python Example</a>
+<a href="python-variables.html" >Python Variables</a>
+<a href="python-data-types.html" >Python Data Types</a>
+<a href="python-keywords.html" >Python Keywords</a>
+<a href="python-literals.html" >Python Literals</a>
+<a href="python-operators.html" >Python Operators</a>
+<a href="python-comments.html" >Python Comments</a>
+<a href="python-if-else.html" >Python If else</a>
+<a href="python-loops.html" >Python Loops</a>
+<a href="python-for-loop.html" >Python For Loop</a>
+<a href="python-while-loop.html" >Python While Loop</a>
+<a href="python-break.html" >Python Break</a>
+<a href="python-continue.html" >Python Continue</a>
+<a href="python-pass.html" >Python Pass</a>
+<a href="python-strings.html"><span>Python Strings</span></a>
+<a href="python-lists.html"><span>Python Lists</span></a>
+<a href="python-tuples.html"><span>Python Tuples</span></a>
+<a href="python-set.html"><span>Python Sets</span></a>
+<a href="python-dictionary.html"><span>Python Dictionary</span></a>
+<a href="python-functions.html"><span>Python Functions</span></a> 
+<a href="python-built-in-functions.html"><span>Python Built-in Functions</span></a>
+<a href="python-lambda-functions.html"><span>Python Lambda Functions</span></a>
+<a href="python-files-io.html"><span>Python Files I/O</span></a>
+<a href="python-modules.html"><span>Python Modules</span></a>
+<a href="python-exception-handling.html
+"><span>Python Exceptions</span></a>
+<a href="python-date.html"><span>Python Date</span></a>
+<a href="python-regex.html">Python Regex</a>
+<a href="python-sending-email.html">Python Sending Email</a>
+
+<a href="python-read-csv-file.html">Read CSV File</a>
+<a href="python-write-csv-file.html">Write CSV File</a>
+<a href="python-read-excel-file.html">Read Excel File</a>
+<a href="python-write-excel-file.html">Write Excel File</a>
+<a href="python-assert-keyword.html">Python Assert</a>
+
+<a href="python-list-comprehension.html">Python List Comprehension</a>
+<a href="python-collection-module.html">Python Collection Module</a>
+<a href="python-math-module.html">Python Math Module</a>
+<a href="python-os-module.html">Python OS Module</a>
+<a href="python-random-module.html">Python Random Module</a>
+<a href="python-statistics-module.html">Python Statistics Module</a>
+<a href="python-sys-module.html">Python Sys Module</a>
+
+<a href="python-ides.html">Python IDEs</a>
+
+<a href="python-arrays.html">Python Arrays</a>
+<a href="python-command-line-arguments.html">Command Line Arguments</a>
+<a href="python-magic-method.html">Python Magic Method</a>
+<a href="python-stack-and-queue.html">Python Stack &amp; Queue</a>
+
+<a href="pyspark-mllib.html">PySpark MLlib</a>
+<a href="python-decorator.html">Python Decorator</a>
+<a href="python-generators.html">Python Generators</a>
+<a href="web-scraping-using-python.html">Web Scraping Using Python</a>
+<a href="python-json.html">Python JSON</a>
+<a href="python-itertools.html">Python Itertools</a>
+</div>
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Python OOPs</span></h2>
+</div>
+
+<div class="leftmenu"  >
+<a href="python-oops-concepts.html" >Python OOPs Concepts</a>
+<a href="python-objects-classes.html" >Python Object Class</a>
+<a href="python-constructors.html" >Python Constructors</a>
+<a href="inheritance-in-python.html" >Python Inheritance</a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python MySQL</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-mysql-environment-setup.html">Environment Setup</a>
+<a href="python-mysql-database-connection.html">Database Connection</a>
+<a href="python-mysql-creating-new-database.html">Creating New Database</a>
+<a href="python-mysql-creating-tables.html">Creating Tables</a>
+<a href="python-mysql-insert-operation.html">Insert Operation</a>
+<a href="python-mysql-read-operation.html">Read Operation</a>
+<a href="python-mysql-update-operation.html">Update Operation</a>
+<a href="python-mysql-join-operation.html">Join Operation</a>
+<a href="python-mysql-performing-transactions.html">Performing Transactions</a>
+</div>
+
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python MongoDB</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-mongodb.html">Python MongoDB</a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python SQLite</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-sqlite.html">Python SQLite</a>
+</div>
+
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python Tkinter (GUI)</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-tkinter.html">Python Tkinter</a>
+<a href="python-tkinter-button.html">Tkinter Button</a>
+<a href="python-tkinter-canvas.html">Tkinter Canvas</a>
+<a href="python-tkinter-checkbutton.html">Tkinter Checkbutton</a>
+<a href="python-tkinter-entry.html">Tkinter Entry</a>
+<a href="python-tkinter-frame.html">Tkinter Frame</a>
+<a href="python-tkinter-label.html">Tkinter Label</a>
+
+<a href="python-tkinter-listbox.html">Tkinter Listbox</a>
+<a href="python-tkinter-menubutton.html">Tkinter Menubutton</a>
+
+<a href="python-tkinter-menu.html">Tkinter Menu</a>
+<a href="python-tkinter-message.html">Tkinter Message</a>
+<a href="python-tkinter-radiobutton.html">Tkinter Radiobutton</a>
+
+<a href="python-tkinter-scale.html">Tkinter Scale</a>
+<a href="python-tkinter-scrollbar.html">Tkinter Scrollbar</a>
+<a href="python-tkinter-text.html">Tkinter Text</a>
+<a href="python-tkinter-toplevel.html">Tkinter Toplevel</a>
+<a href="python-tkinter-spinbox.html">Tkinter Spinbox</a>
+
+<a href="python-tkinter-panedwindow.html">Tkinter PanedWindow</a>
+<a href="python-tkinter-labelframe.html">Tkinter LabelFrame</a>
+<a href="python-tkinter-messagebox.html">Tkinter MessageBox</a>
+
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python Web Blocker</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-website-blocker.html">Introduction</a>
+<a href="python-website-blocker-building-python-script.html">Building Python Script</a>
+<a href="python-website-blocker-script-deployment-on-linux.html">Script Deployment on Linux</a>
+<a href="python-website-blocker-script-deployment-on-windows.html">Script Deployment on Windows</a>
+</div>
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Related Tutorials</span></h2>
+</div>
+
+<div class="leftmenu"  >
+<a href="numpy-tutorial.html"><span>NumPy Tutorial</span></a>
+<a href="django-tutorial.html"><span>Django Tutorial</span></a>
+<a href="flask-tutorial.html"><span>Flask Tutorial</span></a>
+
+<a href="python-pandas.html"><span>Pandas Tutorial</span></a>
+<a href="pytorch.html"><span>Pytorch Tutorial</span></a>
+<a href="pygame.html"><span>Pygame Tutorial</span></a>
+<a href="matplotlib.html"><span>Matplotlib Tutorial</span></a>
+<a href="opencv.html"><span>OpenCV Tutorial</span></a>
+<a href="python-openpyxl.html"><span>Openpyxl Tutorial</span></a>
+
+</div>
+
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Python Programs</span></h2>
+</div>
+
+<div class="leftmenu"  >
+<a href="python-programs.html"><span>Python Programs</span></a>
+</div>
+
+
+<div id="leftad" style="margin-left:20px">
+<!-- javatpointleft -->
+<ins class="adPushupAds" data-adpControl="g8drp" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBqYXZhdHBvaW50bGVmdCAtLT4KPGlucyBjbGFzcz0iYWRzYnlnb29nbGUiCiAgICAgc3R5bGU9ImRpc3BsYXk6aW5saW5lLWJsb2NrO3dpZHRoOjE2MHB4O2hlaWdodDo2MDBweCIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI0NDc2NDAxMjIyIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+</div>
+</div>
+<div class="onlycontent">
+<div class="onlycontentad">
+<!-- CM_JTP_Leaderbaord -->
+<ins class="adPushupAds" data-adpControl="nuoc1" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDTV9KVFBfTGVhZGVyYmFvcmQgLS0+CjxpbnMgY2xhc3M9ImFkc2J5Z29vZ2xlIgogICAgIHN0eWxlPSJkaXNwbGF5OmJsb2NrIgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjkyMDE5MDE5MTUiCiAgICAgZGF0YS1hZC1mb3JtYXQ9ImF1dG8iCiAgICAgZGF0YS1mdWxsLXdpZHRoLXJlc3BvbnNpdmU9InRydWUiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+</div>
+<div class="onlycontentinner">
+<div id="city">
+<table>
+<tr><td>
+
+<h1 class="h1">Web Scraping Using Python</h1>
+<h2 class="h2">What is Web Scraping?</h2>
+<p>Web Scraping is a technique to extract a large amount of data from several websites. The term <strong>"scraping"</strong> refers to obtaining the information from another source (webpages) and saving it into a local file. For example: Suppose you are working on a project called <strong>"Phone comparing website,"</strong> where you require the price of mobile phones, ratings, and model  names to make comparisons between the different mobile phones. If you collect these details by checking various sites, it will take much time. In that case, web scrapping plays an important role where by writing a few lines of code you can get the desired results.</p>
+<img src="./images/web-scraping-using-python.png" alt="Web Scraping Using Python"/>
+<p>Web Scrapping extracts the data from websites in the unstructured format. It helps to collect these unstructured data and convert it in a structured form.</p>
+<p>Startups prefer web scrapping because it is a cheap and effective way to get a large amount of data without any partnership with the data selling company.</p>
+<h2 class="h2">Is Web Scrapping legal?</h2>
+<p>Here the question arises <strong>whether the web scrapping is legal or not</strong>. The answer is that some sites allow it when used legally. Web scraping is just a tool you can use it in the right way or wrong way.</p>
+<p>Web scrapping is illegal if someone tries to scrap the nonpublic data. Nonpublic data is not reachable to everyone; if you try to extract such data then it is a violation of the legal term.</p>
+<p>There are several tools available to scrap data from websites, such as:</p>
+<ul class="points">
+<li>Scrapping-bot</li>
+<li>Scrapper API</li>
+<li>Octoparse</li>
+<li>Import.io</li>
+<li>Webhose.io</li>
+<li>Dexi.io</li>
+<li>Outwit</li>
+<li>Diffbot</li>
+<li>Content Grabber</li>
+<li>Mozenda</li>
+<li>Web Scrapper Chrome Extension</li>
+</ul>
+<h2 class="h2">Why Web Scrapping?</h2>
+<img src="./images/web-scraping-using-python2.png" alt="Web Scraping Using Python"/>
+<p>As we have discussed above, web scrapping is used to extract the data from websites. But we should know how to use that raw data. That raw data can be used in various fields. Let's have a look at the usage of web scrapping:</p>
+<ul class="points">
+<li><strong>Dynamic Price Monitoring</strong></li>
+</ul>
+<p>It is widely used to collect data from several online shopping sites and compare the prices of products and make profitable pricing decisions. Price monitoring using web scrapped data gives the ability to the companies to know the market condition and facilitate dynamic pricing. It ensures the companies they always outrank others.</p>
+<ul class="points">
+<li><strong>Market Research</strong></li>
+</ul>
+<p>eb Scrapping is perfectly appropriate for market trend analysis. It is gaining insights into a particular market. The large organization requires a great deal of data, and web scrapping provides the data with a guaranteed level of reliability and accuracy.</p>
+<ul class="points">
+<li><strong>Email Gathering</strong></li>
+</ul>
+<p>Many companies use personals e-mail data for email marketing. They can target the specific audience for their marketing.</p>
+<ul class="points">
+<li><strong>News and Content Monitoring</strong></li>
+</ul>
+<p>A single news cycle can create an outstanding effect or a genuine threat to your business. If your company depends on the news analysis of an organization, it frequently appears in the news. So web scraping provides the ultimate solution to monitoring and parsing the most critical stories. News articles and social media platform can directly influence the stock market.</p>
+<ul class="points">
+<li><strong>Social Media Scrapping</strong></li>
+</ul>
+<p>Web Scrapping plays an essential role in extracting data from social media websites such as <strong>Twitter, Facebook,</strong> and <strong>Instagram,</strong> to find the trending topics.</p>
+<ul class="points">
+<li><strong>Research and Development</strong></li>
+</ul>
+<p>The large set of data such as <strong>general information, statistics, and temperature</strong> is scrapped from websites, which is analyzed and used to carry out surveys or research and development.</p>
+<h2 class="h2">Why use Python for Web Scrapping?</h2>
+<p>There are other popular programming languages, but why we choose the Python over other programming languages for web scraping? Below we are describing a list of Python's features that make the most useful programming language for web scrapping.</p>
+<ul class="points">
+<li><strong>Dynamically Typed</strong></li>
+</ul>
+<p>In Python, we don't need to define data types for variables; we can directly use the variable wherever it requires. It saves time and makes a task faster. Python defines its classes to identify the data type of variable.</p>
+<ul class="points">
+<li><strong>Vast collection of libraries</strong></li>
+</ul>
+<p>Python comes with an extensive range of libraries such as <strong>NumPy, Matplotlib, Pandas, Scipy, etc</strong>., that provide flexibility to work with various purposes. It is suited for almost every emerging field and also for web scrapping for extracting data and do manipulation.</p>
+<ul class="points">
+<li><strong>Less Code</strong></li>
+</ul>
+<p>The purpose of the web scrapping is to save time. But what if you spend more time in writing the code? That's why we use Python, as it can perform a task in a few lines of code.</p>
+<ul class="points">
+<li><strong>Open-Source Community</strong></li>
+</ul>
+<p>Python is open-source, which means it is freely available for everyone. It has one of the biggest communities across the world where you can seek help if you get stuck anywhere in Python code.</p>
+<h3 class="h3">The basics of web scraping</h3>
+<p>The web scrapping consists of two parts: <strong>a web crawler and a web scraper</strong>. In simple words, the web crawler is a horse, and the scrapper is the chariot. The crawler leads the scrapper and extracts the requested data.  Let's understand about these two components of web scrapping:</p>
+<ul class="points">
+<li><strong>The crawler</strong></li>
+</ul>
+<p><img src="./images/web-scraping-using-python3.png" style="float:left;padding-right:15px" alt="Web Scraping Using Python"/> A web crawler is generally called a <strong>"spider."</strong> It is an artificial intelligence technology that browses the internet to index and searches for the content by given links. It searches for the relevant information asked by the programmer.</p>
+<li><strong>The scrapper</strong></li>
+</ul>
+<p><img src="./images/web-scraping-using-python4.png" style="float:left;padding-right:15px" alt="Web Scraping Using Python"/>A web scraper is a dedicated tool that is designed to extract the data from several websites quickly and effectively. Web scrappers vary widely in design and complexity, depending on the projects.</p>
+<h3 class="h3">How does Web Scrapping work?</h3>
+<p>These are the following steps to perform web scraping. Let's understand the working of web scraping. </p>
+<p><strong>Step -1: Find the URL that you want to scrape</strong></p>
+<p>First, you should understand the requirement of data according to your project. A webpage or website contains a large amount of information. That's why scrap only relevant information. In simple words, the developer should be familiar with the data requirement.</p>
+<p><strong>Step - 2: Inspecting the Page</strong></p>
+<p>The data is extracted in raw HTML format, which must be carefully parsed and reduce the noise from the raw data. In some cases, data can be simple as name and address or as complex as high dimensional weather and stock market data.</p>
+<p><strong>Step - 3: Write the code</strong></p>
+<p>Write a code to extract the information, provide relevant information, and run the code.</p>
+<p><strong>Step - 4: Store the data in the file</strong></p>
+<p>Store that information in required csv, xml, JSON file format.</p>
+<h3 class="h3">Getting Started with Web Scrapping </h3>
+<p>Python has a vast collection of libraries and also provides a very useful library for web scrapping. Let's understand the required library for Python.</p>
+<p><strong>Library used for web scrapping</strong></p>
+<ul class="points">
+<li><strong>Selenium-</strong> Selenium is an open-source automated testing library. It is used to check browser activities. To install this library, type the following command in your terminal. </li>
+</ul>
+<div class="codeblock"><textarea name="code" class="java">
+pip install selenium
+</textarea></div>
+<h4 class="n">Note - It is good to use the PyCharm IDE.</h4>
+<img src="./images/web-scraping-using-python5.png" alt="Web Scraping Using Python"/>
+<ul class="points">
+<li><strong>Pandas</strong></li>
+</ul>
+<p>Pandas library is used for <strong>data manipulation and analysis</strong>. It is used to extract the data and store it in the desired format.</p>
+<ul class="points">
+<li><strong>BeautifulSoup</strong></li>
+</ul>
+BeautifulSoup is a Python library that is used to pull data of HTML and XML files. It is mainly designed for web scrapping. It works with the parser to provide a natural way of navigating, searching, and modifying the parse tree. The latest version of BeautifulSoup is 4.8.1.</p>
+<p>Let's understand the <strong>BeautifulSoup</strong> library in detail.</p>
+<p><strong>Installation of BeautifulSoup</strong></p>
+<p>You can install BeautifulSoup by typing the following command:</p>
+<div class="codeblock"><textarea name="code" class="java">
+pip install bs4
+</textarea></div>
+<p><strong>Installing a parser</strong></p>
+<p>BeautifulSoup supports HTML parser and several third-party Python parsers. You can install any of them according to your dependency. The list of BeautifulSoup's parsers is the following:</p>
+<table class="alt">
+<tr>
+   <th>Parser</th>
+   <th>Typical usage</th>
+</tr>
+<tr>
+   <td>Python's html.parser</td>
+   <td>BeautifulSoup(markup,"html.parser")</td>
+</tr>  
+<tr>
+   <td>lxml's HTML parser</td>
+   <td>BeautifulSoup(markup,"lxml")</td>
+</tr>  
+<tr>
+   <td>lxml's XML parser</td>
+   <td>BeautifulSoup(markup,"lxml-xml")</td>
+</tr>  
+<tr>
+   <td>Html5lib</td>
+   <td>BeautifulSoup(markup,"html5lib")</td>
+</tr>  
+</table> 
+<p>We recommend you to install <strong>html5lib</strong> parser because it is much suitable for the newer version of Python, or you can install <strong>lxml</strong> parser.</p>
+<p>Type the following command in your terminal:</p>
+<div class="codeblock"><textarea name="code" class="java">
+pip install html5lib
+</textarea></div>
+<br>
+<img src="./images/web-scraping-using-python6.png" alt="Web Scraping Using Python"/>
+<p>BeautifulSoup is used to transform a complex HTML document into a complex tree of Python objects. But there are a few essential types object which are mostly used:</p>
+<ul class="points">
+<li><strong>Tag</strong></li>
+</ul>
+<p>A <strong>Tag</strong> object corresponds to an XML or HTML original document.</p>
+<div class="codeblock"><textarea name="code" class="java">
+soup = bs4.BeautifulSoup("&lt;b class = "boldest"&gt;Extremely bold&lt;/b&gt;)
+tag = soup.b
+type(tag)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+&lt;class "bs4.element.Tag"&gt;
+</pre></div>
+<p>Tag contains lot of attributes and methods, but most important features of a tag are name and attribute.</p>
+<ul class="points">
+<li><strong>Name</strong></li>
+</ul>
+<p>Every tag has a name, accessible as <strong>.name:</strong></p>
+<div class="codeblock"><textarea name="code" class="java">
+tag.name
+</textarea></div>
+<ul class="points">
+<li><strong>Attributes</strong></li>
+</ul>
+<p>A tag may have any number of attributes. The tag &lt;b id = "boldest"&gt; has an attribute "id" whose value is "boldest". We can access a tag's attributes by treating the tag as dictionary.</p>
+<div class="codeblock"><textarea name="code" class="java">
+tag[id]
+</textarea></div>
+<p>We can add, remove, and modify a tag's attributes. It can be done by using tag as dictionary.</p>
+<div class="codeblock"><textarea name="code" class="java">
+# add the element
+tag['id'] = 'verybold'
+tag['another-attribute'] = 1
+tag
+# delete the tag
+del tag['id']	
+</textarea></div>
+<ul class="points">
+<li><strong>Multi-valued Attributes</strong></li>
+</ul>
+<p>In HTML5, there are some attributes that can have multiple values. The class (consists more than one css) is the most common multivalued attributes. Other attributes are <strong>rel, rev, accept-charset, headers,</strong> and <strong>accesskey</strong>.</p>
+<div class="codeblock"><textarea name="code" class="java">
+class_is_multi= { '*' : 'class'}
+xml_soup = BeautifulSoup('&lt;p class="body strikeout"&gt;&lt;/p&gt;', 'xml', multi_valued_attributes=class_is_multi)
+xml_soup.p['class']
+# [u'body', u'strikeout']
+</textarea></div>
+<ul class="points">
+<li><strong>NavigableString</strong></li>
+</ul>
+<p>A string in BeautifulSoup refers text within a tag. BeautifulSoup uses the <strong>NavigableString</strong> class to contain these bits of text.</p>
+<div class="codeblock"><textarea name="code" class="java">
+tag.string
+# u'Extremely bold'
+type(tag.string)
+# &lt;class 'bs4.element.NavigableString'&gt;
+</textarea></div>
+<p>A string is immutable means it can't be edited. But it can be replaced with another string using <strong>replace_with()</strong>.</p>
+<div class="codeblock"><textarea name="code" class="java">
+tag.string.replace_with("No longer bold")
+tag
+</textarea></div>
+<p>In some cases, if you want to use a <strong>NavigableString</strong> outside the BeautifulSoup, the <strong>unicode()</strong> helps it to turn into normal Python Unicode string.</p>
+<ul class="points">
+<li><strong>BeautifulSoup object</strong></li>
+</ul>
+<p>The BeautifulSoup object represents the complete parsed document as a whole. In many cases, we can use it as a Tag object. It means it supports most of the methods described in navigating the tree and searching the tree.</p>
+<div class="codeblock"><textarea name="code" class="xml">
+doc=BeautifulSoup("&lt;document&gt;&lt;content/&gt;INSERT FOOTER HERE&lt;/document","xml")
+footer=BeautifulSoup("&lt;footer&gt;Here's the footer&lt;/footer&gt;","xml")
+doc.find(text="INSERT FOOTER HERE").replace_with(footer)
+print(doc)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+?xml version="1.0" encoding="utf-8"?&gt;
+# &lt;document&gt;&lt;content/&gt;&lt;footer&gt;Here's the footer&lt;/footer&gt;&lt;/document&gt;
+</pre></div>
+<h3 class="h3">Web Scrapping Example:</h3>
+<p>Let's take an example to understand the scrapping practically by extracting the data from the webpage and inspecting the whole page.</p>
+<p>First, open your favorite page on Wikipedia and inspect the whole page, and before extracting data from the webpage, you should ensure your requirement. Consider the following code:</p>
+<div class="codeblock"><textarea name="code" class="java">
+#importing the BeautifulSoup Library
+
+importbs4
+import requests
+
+#Creating the requests
+
+res = requests.get("https://en.wikipedia.org/wiki/Machine_learning")
+print("The object type:",type(res))
+
+# Convert the request object to the Beautiful Soup Object
+soup = bs4.BeautifulSoup(res.text,'html5lib')
+print("The object type:",type(soup)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+The object type &lt;class 'requests.models.Response'&gt;
+Convert the object into: &lt;class 'bs4.BeautifulSoup'&gt;
+</pre></div>
+<p>In the following lines of code, we are extracting all headings of a webpage by class name.  Here front-end knowledge plays an essential role in inspecting the webpage.</p>
+<div class="codeblock"><textarea name="code" class="java">
+soup.select('.mw-headline')
+for i in soup.select('.mw-headline'):
+print(i.text,end = ',')
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+Overview,Machine learning tasks,History and relationships to other fields,Relation to data mining,
+Relation to optimization,Relation to statistics, Theory,Approaches,Types of learning algorithms,
+Supervised learning,Unsupervised learning,Reinforcement learning,Self-learning,Feature learning,
+Sparse dictionary learning,Anomaly detection,Association rules,Models,Artificial neural networks,
+Decision trees,Support vector machines,Regression analysis,Bayesian networks,Genetic algorithms,
+Training models,Federated learning,Applications,Limitations,Bias,Model assessments,Ethics,Software,
+Free and open-source software,Proprietary software with free and open-source editions,Proprietary 
+software,Journals,Conferences,See also,References,Further reading,External links,
+</pre></div>
+<p>In the above code, we imported the <strong>bs4</strong> and <strong>requested</strong> the library. In the third line, we created a <strong>res</strong> object to send a request to the webpage. As you can observe that we have extracted all heading from the webpage.</p>
+<img src="./images/web-scraping-using-python7.png" alt="Web Scraping Using Python"/>
+<p><strong>Webpage of Wikipedia Learning</strong></p>
+<p>Let's understand another example; we will make a GET request to the URL and create a parse Tree object (soup) with the use of BeautifulSoup and Python built-in <strong>"html5lib"</strong> parser.</p>
+<p>Here we will scrap the webpage of given link <a href="#">(https://www.javatpoint.com/).</a> Consider the following code:</p>
+<div class="codeblock"><textarea name="code" class="java">
+following code:
+# importing the libraries
+from bs4 import BeautifulSoup
+import requests
+
+url="https://www.javatpoint.com/"
+
+# Make a GET request to fetch the raw HTML content
+html_content = requests.get(url).text
+
+# Parse the html content
+soup = BeautifulSoup(html_content, "html5lib")
+print(soup.prettify()) # print the parsed data of html
+</textarea></div>
+<p>The above code will display the all html code of javatpoint homepage.</p>
+<p>Using the <strong>BeautifulSoup</strong> object, i.e. <strong>soup</strong>, we can collect the required data table. Let's print some interesting information using the <strong>soup</strong> object:</p>
+<ul class="points">
+<li>Let's print the title of the web page.</li>
+</ul>
+<div class="codeblock"><textarea name="code" class="java">
+print(soup.title)
+</textarea></div>
+<p><strong>Output:</strong> It will give an output as follow:</p>
+<div class="codeblock3"><pre>
+&lt;title&gt;Tutorials List - Javatpoint&lt;/title&gt;
+</pre></div>
+<ul class="points">
+<li>In the above output, the HTML tag is included with the title. If you want text without tag, you can use the following code:</li>
+</ul>
+<div class="codeblock"><textarea name="code" class="java">
+print(soup.title.text)
+</textarea></div>
+<p><strong>Output:</strong> It will give an output as follow:</p>
+<div class="codeblock3"><pre>
+Tutorials List - Javatpoint
+</pre></div>
+<ul class="points">
+<li>We can get the entire link on the page along with its attributes, such as href, title, and its inner Text. Consider the following code:</li>
+</ul>
+<div class="codeblock"><textarea name="code" class="java">
+for link in soup.find_all("a"):
+print("Inner Text is: {}".format(link.text))
+print("Title is: {}".format(link.get("title")))
+print("href is: {}".format(link.get("href")))
+</textarea></div>
+<p><strong>Output:</strong> It will print all links along with its attributes. Here we display a few of them:</p>
+<div class="codeblock3"><pre>
+href is: https://www.facebook.com/javatpoint
+Inner Text is: 
+The title is: None
+href is: https://twitter.com/pagejavatpoint
+Inner Text is: 
+The title is: None
+href is: https://www.youtube.com/channel/UCUnYvQVCrJoFWZhKK3O2xLg
+Inner Text is: 
+The title is: None
+href is: https://javatpoint.blogspot.com
+Inner Text is: Learn Java
+Title is: None
+href is: https://www.javatpoint.com/java-tutorial
+Inner Text is: Learn Data Structures
+Title is: None
+href is: https://www.javatpoint.com/data-structure-tutorial
+Inner Text is: Learn C Programming
+Title is: None
+href is: https://www.javatpoint.com/c-programming-language-tutorial
+Inner Text is: Learn C++ Tutorial
+</pre></div>
+<h3 class="h3">Demo: Scraping Data from Flipkart Website</h3>
+<p>In this example, we will scrap the mobile phone prices, ratings, and model name from Flipkart, which is one of the popular e-commerce websites. Following are the prerequisites to accomplish this task:</p>
+<p><strong>Prerequisites:</strong></p>
+<ul class="points">
+<li>Python 2.x or Python 3.x with <strong>Selenium, BeautifulSoup, Pandas</strong> libraries installed.</li>
+<li>Google - chrome browser</li>
+<li>Scrapping Parser such as html.parser, xlml, etc.</li>
+</ul>
+<p><strong>Step - 1: Find the desired URL to scrap </strong></p>
+<p>The initial step is to find the URL that you want to scrap. Here we are extracting mobile phone details from the flipkart. The URL of this page is https://www.flipkart.com/search?q=iphones&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off.</p>
+<p><strong>Step -2: Inspecting the page</strong></p>
+<p>It is necessary to inspect the page carefully because the data is usually contained within the tags. So we need to inspect to select the desired tag. To inspect the page, right-click on the element and click <strong>"inspect"</strong>.</p>
+<p><strong>Step - 3: Find the data for extracting</strong></p>
+<p>Extract the Price, Name, and Rating, which are contained in the "div" tag, respectively.</p>
+<p><strong>Step - 4: Write the Code</strong></p>
+<div class="codeblock"><textarea name="code" class="java">
+from bs4 import BeautifulSoupas soup
+from urllib.request import urlopen as uReq
+
+# Request from the webpage
+myurl = "https://www.flipkart.com/search?q=iphones&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"
+
+
+uClient  = uReq(myurl)
+page_html = uClient.read()
+uClient.close()
+
+page_soup = soup(page_html, features="html.parser")
+
+# print(soup.prettify(containers[0]))
+
+# This variable held all html of webpage
+containers = page_soup.find_all("div",{"class": "_3O0U0u"})
+# container = containers[0]
+# # print(soup.prettify(container))
+#
+# price = container.find_all("div",{"class": "col col-5-12 _2o7WAb"})
+# print(price[0].text)
+#
+# ratings = container.find_all("div",{"class": "niH0FQ"})
+# print(ratings[0].text)
+#
+# #
+# # print(len(containers))
+# print(container.div.img["alt"])
+
+# Creating CSV File that will store all data 
+filename = "product1.csv"
+f = open(filename,"w")
+
+headers = "Product_Name,Pricing,Ratings\n"
+f.write(headers)
+
+for container in containers:
+    product_name = container.div.img["alt"]
+
+    price_container = container.find_all("div", {"class": "col col-5-12 _2o7WAb"})
+    price = price_container[0].text.strip()
+
+    rating_container = container.find_all("div",{"class":"niH0FQ"})
+    ratings = rating_container[0].text
+
+# print("product_name:"+product_name)
+    # print("price:"+price)
+    # print("ratings:"+ str(ratings))
+
+     edit_price = ''.join(price.split(','))
+     sym_rupee = edit_price.split("?")
+     add_rs_price = "Rs"+sym_rupee[1]
+     split_price = add_rs_price.split("E")
+     final_price = split_price[0]
+
+     split_rating = str(ratings).split(" ")
+     final_rating = split_rating[0]
+
+     print(product_name.replace(",", "|")+","+final_price+","+final_rating+"\n")
+f.write(product_name.replace(",", "|")+","+final_price+","+final_rating+"\n")
+
+f.close()
+</textarea></div>
+<p><strong>Output:</strong></p>
+<img src="./images/web-scraping-using-python8.png" alt="Web Scraping Using Python"/>
+<p>We scrapped the details of the iPhone and saved those details in the CSV file as you can see in the output. In the above code, we put a comment on the few lines of code for testing purpose. You can remove those comments and observe the output.</p>
+<p>In this tutorial, we have discussed all basic concepts of web scrapping and described the sample scrapping from the leading online ecommerce site flipkart.</p>
+
+<hr/>
+
+
+<br/><br/>
+</td></tr>
+</table>
+</div>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- AP_37780_300x250(0) -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4699858549023382"
+     data-ad-slot="5022809933"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+ 
+</div>
+
+
+<br><br/><div class="mobilemenu" style="clear:both">
+<ins class="adPushupAds" data-adpControl="jrfe7" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByZXNwb25zaXZlbW9iaWxlZm9vdGVyIC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTpibG9jayIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI4MjIyODY2MzE4IgogICAgIGRhdGEtYWQtZm9ybWF0PSJhdXRvIgogICAgIGRhdGEtZnVsbC13aWR0aC1yZXNwb25zaXZlPSJ0cnVlIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+</div></div>
+
+<div id="right">
+
+<ins class="adPushupAds" data-adpControl="am3c1" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBuZXdyaWdodCAtLT4KPGlucyBjbGFzcz0iYWRzYnlnb29nbGUiCiAgICAgc3R5bGU9ImRpc3BsYXk6YmxvY2siCiAgICAgZGF0YS1hZC1jbGllbnQ9ImNhLXB1Yi00Njk5ODU4NTQ5MDIzMzgyIgogICAgIGRhdGEtYWQtc2xvdD0iNjAzNDkxMjU0MSIKICAgICBkYXRhLWFkLWZvcm1hdD0iYXV0byIKICAgICBkYXRhLWZ1bGwtd2lkdGgtcmVzcG9uc2l2ZT0idHJ1ZSI+PC9pbnM+CjxzY3JpcHQ+CihhZHNieWdvb2dsZSA9IHdpbmRvdy5hZHNieWdvb2dsZSB8fCBbXSkucHVzaCh7fSk7Cjwvc2NyaXB0Pg=="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+<br/><br/>
+
+<ins class="adPushupAds" data-adpControl="am3c1" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBuZXdyaWdodCAtLT4KPGlucyBjbGFzcz0iYWRzYnlnb29nbGUiCiAgICAgc3R5bGU9ImRpc3BsYXk6YmxvY2siCiAgICAgZGF0YS1hZC1jbGllbnQ9ImNhLXB1Yi00Njk5ODU4NTQ5MDIzMzgyIgogICAgIGRhdGEtYWQtc2xvdD0iNjAzNDkxMjU0MSIKICAgICBkYXRhLWFkLWZvcm1hdD0iYXV0byIKICAgICBkYXRhLWZ1bGwtd2lkdGgtcmVzcG9uc2l2ZT0idHJ1ZSI+PC9pbnM+CjxzY3JpcHQ+CihhZHNieWdvb2dsZSA9IHdpbmRvdy5hZHNieWdvb2dsZSB8fCBbXSkucHVzaCh7fSk7Cjwvc2NyaXB0Pg=="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+<br/><br/>
+</div>
+
+<div class="right1024" style="float:left;margin-left:10px;margin-top:120px;">
+<!-- right1024only -->
+<ins class="adPushupAds" data-adpControl="6d5qg" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+<br/><br/>
+<ins class="adPushupAds" data-adpControl="6d5qg" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+</div>
+<br/>
+
+</div>
+</div>
+</div>
+<script src="./js/shcoreandbrush.js">
+</script>
+<script>dp.SyntaxHighlighter.HighlightAll('code'); 
+</script>
+<script src=".js/lazysizes.min.js">-->
+<script src="./js/lazysizes.min.js" async></script>
+</body> 
+</html> 

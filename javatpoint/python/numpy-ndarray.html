@@ -1,0 +1,581 @@
+
+ <!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>NumPy Ndarray - ITM e-Learning</title><link rel="SHORTCUT ICON" href="./images/favicon2.png"/>
+<link rel="stylesheet" type="text/css" href="./css/link.css"/><link rel="dns-prefetch" href="https://clients1.google.com"><link rel="dns-prefetch" href="https://static.javatpoint.com"><link rel="dns-prefetch" href="https://googleads.g.doubleclick.net"><link rel="dns-prefetch" href="https://www.google.com"><link rel="dns-prefetch" href="https://feedify.net"><meta name="theme-color" content="#4CAF50"/><meta property="og:title" content="Learn Python Tutorial - javatpoint" /><meta property="og:description" content="Learn Python Tutorial for beginners and professional with various python topics such as loops, strings, lists, dictionary, tuples, date, time, files, functions, modules, methods, exceptions etc." />
+<meta name="keywords" content="python, tutorial, examples, programs, language, beginners, introduction, strings, lists, dictionary, tuples, date, time"/><meta name="description" content="Learn Python Tutorial for beginners and professional with various python topics such as loops, strings, lists, dictionary, tuples, date, time, files, functions, modules, methods, exceptions etc."/><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="canonical" href="python-tutorial.html" />
+
+
+<link href="./css/manifest.json" rel="manifest">
+<script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/37784/adRecover.js?ts=1543562646174'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
+<script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//cdn.adpushup.com/37780/adpushup.js'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
+</head> 
+<body onload="highlightlink()"> 
+ 
+
+            <div style="float:left;width:60%;">
+<script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+                
+            </div>
+            
+        </td>
+    </tr>
+        
+</table> </div>
+
+<div style="margin:0px;padding:0px;clear:both">
+<script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+
+</div>
+</div>
+
+<div class="mobilemenu" style="clear:both"> 
+<!-- Cm_300x250_Mob_14/9 -->
+<ins class="adPushupAds" data-adpControl="hqdgs" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDbV8zMDB4MjUwX01vYl8xNC85IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MzAwcHg7aGVpZ2h0OjI1MHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjcwMTQyNzI1MTkiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+</div>
+
+<div id="menu">
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Python Tutorial</span></h2>
+</div>
+
+<div class="leftmenu">
+<a href="python.html">Python Tutorial</a>
+<a href="python-features.html" >Python Features</a>
+<a href="python-history.html" >Python History</a>
+<a href="python-applications.html" >Python Applications</a>
+<a href="how-to-install-python.html" >Python Install</a>
+<a href="python-example.html" >Python Example</a>
+<a href="python-variables.html" >Python Variables</a>
+<a href="python-data-types.html" >Python Data Types</a>
+<a href="python-keywords.html" >Python Keywords</a>
+<a href="python-literals.html" >Python Literals</a>
+<a href="python-operators.html" >Python Operators</a>
+<a href="python-comments.html" >Python Comments</a>
+<a href="python-if-else.html" >Python If else</a>
+<a href="python-loops.html" >Python Loops</a>
+<a href="python-for-loop.html" >Python For Loop</a>
+<a href="python-while-loop.html" >Python While Loop</a>
+<a href="python-break.html" >Python Break</a>
+<a href="python-continue.html" >Python Continue</a>
+<a href="python-pass.html" >Python Pass</a>
+<a href="python-strings.html"><span>Python Strings</span></a>
+<a href="python-lists.html"><span>Python Lists</span></a>
+<a href="python-tuples.html"><span>Python Tuples</span></a>
+<a href="python-set.html"><span>Python Sets</span></a>
+<a href="python-dictionary.html"><span>Python Dictionary</span></a>
+<a href="python-functions.html"><span>Python Functions</span></a> 
+<a href="python-built-in-functions.html"><span>Python Built-in Functions</span></a>
+<a href="python-lambda-functions.html"><span>Python Lambda Functions</span></a>
+<a href="python-files-io.html"><span>Python Files I/O</span></a>
+<a href="python-modules.html"><span>Python Modules</span></a>
+<a href="python-exception-handling.html
+"><span>Python Exceptions</span></a>
+<a href="python-date.html"><span>Python Date</span></a>
+<a href="python-regex.html">Python Regex</a>
+<a href="python-sending-email.html">Python Sending Email</a>
+
+<a href="python-read-csv-file.html">Read CSV File</a>
+<a href="python-write-csv-file.html">Write CSV File</a>
+<a href="python-read-excel-file.html">Read Excel File</a>
+<a href="python-write-excel-file.html">Write Excel File</a>
+<a href="python-assert-keyword.html">Python Assert</a>
+
+<a href="python-list-comprehension.html">Python List Comprehension</a>
+<a href="python-collection-module.html">Python Collection Module</a>
+<a href="python-math-module.html">Python Math Module</a>
+<a href="python-os-module.html">Python OS Module</a>
+<a href="python-random-module.html">Python Random Module</a>
+<a href="python-statistics-module.html">Python Statistics Module</a>
+<a href="python-sys-module.html">Python Sys Module</a>
+
+<a href="python-ides.html">Python IDEs</a>
+
+<a href="python-arrays.html">Python Arrays</a>
+<a href="python-command-line-arguments.html">Command Line Arguments</a>
+<a href="python-magic-method.html">Python Magic Method</a>
+<a href="python-stack-and-queue.html">Python Stack &amp; Queue</a>
+
+<a href="pyspark-mllib.html">PySpark MLlib</a>
+<a href="python-decorator.html">Python Decorator</a>
+<a href="python-generators.html">Python Generators</a>
+<a href="web-scraping-using-python.html">Web Scraping Using Python</a>
+<a href="python-json.html">Python JSON</a>
+<a href="python-itertools.html">Python Itertools</a>
+</div>
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Python OOPs</span></h2>
+</div>
+
+<div class="leftmenu"  >
+<a href="python-oops-concepts.html" >Python OOPs Concepts</a>
+<a href="python-objects-classes.html" >Python Object Class</a>
+<a href="python-constructors.html" >Python Constructors</a>
+<a href="inheritance-in-python.html" >Python Inheritance</a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python MySQL</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-mysql-environment-setup.html">Environment Setup</a>
+<a href="python-mysql-database-connection.html">Database Connection</a>
+<a href="python-mysql-creating-new-database.html">Creating New Database</a>
+<a href="python-mysql-creating-tables.html">Creating Tables</a>
+<a href="python-mysql-insert-operation.html">Insert Operation</a>
+<a href="python-mysql-read-operation.html">Read Operation</a>
+<a href="python-mysql-update-operation.html">Update Operation</a>
+<a href="python-mysql-join-operation.html">Join Operation</a>
+<a href="python-mysql-performing-transactions.html">Performing Transactions</a>
+</div>
+
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python MongoDB</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-mongodb.html">Python MongoDB</a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python SQLite</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-sqlite.html">Python SQLite</a>
+</div>
+
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python Tkinter (GUI)</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-tkinter.html">Python Tkinter</a>
+<a href="python-tkinter-button.html">Tkinter Button</a>
+<a href="python-tkinter-canvas.html">Tkinter Canvas</a>
+<a href="python-tkinter-checkbutton.html">Tkinter Checkbutton</a>
+<a href="python-tkinter-entry.html">Tkinter Entry</a>
+<a href="python-tkinter-frame.html">Tkinter Frame</a>
+<a href="python-tkinter-label.html">Tkinter Label</a>
+
+<a href="python-tkinter-listbox.html">Tkinter Listbox</a>
+<a href="python-tkinter-menubutton.html">Tkinter Menubutton</a>
+
+<a href="python-tkinter-menu.html">Tkinter Menu</a>
+<a href="python-tkinter-message.html">Tkinter Message</a>
+<a href="python-tkinter-radiobutton.html">Tkinter Radiobutton</a>
+
+<a href="python-tkinter-scale.html">Tkinter Scale</a>
+<a href="python-tkinter-scrollbar.html">Tkinter Scrollbar</a>
+<a href="python-tkinter-text.html">Tkinter Text</a>
+<a href="python-tkinter-toplevel.html">Tkinter Toplevel</a>
+<a href="python-tkinter-spinbox.html">Tkinter Spinbox</a>
+
+<a href="python-tkinter-panedwindow.html">Tkinter PanedWindow</a>
+<a href="python-tkinter-labelframe.html">Tkinter LabelFrame</a>
+<a href="python-tkinter-messagebox.html">Tkinter MessageBox</a>
+
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python Web Blocker</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-website-blocker.html">Introduction</a>
+<a href="python-website-blocker-building-python-script.html">Building Python Script</a>
+<a href="python-website-blocker-script-deployment-on-linux.html">Script Deployment on Linux</a>
+<a href="python-website-blocker-script-deployment-on-windows.html">Script Deployment on Windows</a>
+</div>
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Related Tutorials</span></h2>
+</div>
+
+<div class="leftmenu"  >
+<a href="numpy-tutorial.html"><span>NumPy Tutorial</span></a>
+<a href="django-tutorial.html"><span>Django Tutorial</span></a>
+<a href="flask-tutorial.html"><span>Flask Tutorial</span></a>
+
+<a href="python-pandas.html"><span>Pandas Tutorial</span></a>
+<a href="pytorch.html"><span>Pytorch Tutorial</span></a>
+<a href="pygame.html"><span>Pygame Tutorial</span></a>
+<a href="matplotlib.html"><span>Matplotlib Tutorial</span></a>
+<a href="opencv.html"><span>OpenCV Tutorial</span></a>
+<a href="python-openpyxl.html"><span>Openpyxl Tutorial</span></a>
+
+</div>
+
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Python Programs</span></h2>
+</div>
+
+<div class="leftmenu"  >
+<a href="python-programs.html"><span>Python Programs</span></a>
+</div>
+
+
+<div id="leftad" style="margin-left:20px">
+<!-- javatpointleft -->
+<ins class="adPushupAds" data-adpControl="g8drp" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBqYXZhdHBvaW50bGVmdCAtLT4KPGlucyBjbGFzcz0iYWRzYnlnb29nbGUiCiAgICAgc3R5bGU9ImRpc3BsYXk6aW5saW5lLWJsb2NrO3dpZHRoOjE2MHB4O2hlaWdodDo2MDBweCIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI0NDc2NDAxMjIyIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+</div>
+</div>
+<div class="onlycontent">
+<div class="onlycontentad">
+<!-- CM_JTP_Leaderbaord -->
+<ins class="adPushupAds" data-adpControl="nuoc1" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDTV9KVFBfTGVhZGVyYmFvcmQgLS0+CjxpbnMgY2xhc3M9ImFkc2J5Z29vZ2xlIgogICAgIHN0eWxlPSJkaXNwbGF5OmJsb2NrIgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjkyMDE5MDE5MTUiCiAgICAgZGF0YS1hZC1mb3JtYXQ9ImF1dG8iCiAgICAgZGF0YS1mdWxsLXdpZHRoLXJlc3BvbnNpdmU9InRydWUiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+</div>
+<div class="onlycontentinner">
+<div id="city">
+<table>
+<tr><td>
+
+<div id="bottomnextup">
+<a class="next" href="numpy-datatypes.html">next &rarr;</a>
+<a class="next" href="numpy-environment-setup.html">&larr; prev</a>
+</div>
+
+<h1 class="h1">NumPy Ndarray</h1>
+<p>Ndarray is the n-dimensional array object defined in the numpy which stores the collection of the similar type of elements. In other words, we can define a ndarray as the collection of the data type (dtype) objects.</p>
+<p>The ndarray object can be accessed by using the 0 based indexing. Each element of the Array object contains the same size in the memory.</p>
+<h2 class="h2">Creating a ndarray object</h2>
+<p>The ndarray object can be created by using the array routine of the numpy module. For this purpose, we need to import the numpy. </p>
+<div class="codeblock"><textarea name="code" class="python">
+&gt;&gt;&gt; a = numpy.array
+</textarea></div>
+<p>Consider the below image. </p>
+<img src="./images/numpy-ndarray.png" alt="NumPy Ndarray"/>
+<p>We can also pass a collection object into the array routine to create the equivalent n-dimensional array. The syntax is given below.</p>
+<div class="codeblock"><textarea name="code" class="python">
+&gt;&gt;&gt; numpy.array(object, dtype = None, copy = True, order = None, subok = False, ndmin = 0)
+</textarea></div>
+<p>The parameters are described in the following table. </p>
+<table class="alt">
+<tr>
+	<th>SN</th>
+	<th>Parameter</th>
+	<th>Description</th>
+</tr>
+<tr>
+	<td>1</td>
+	<td>object</td>
+	<td>It represents the collection object. It can be a list, tuple, dictionary, set, etc.</td>
+</tr>
+<tr>
+	<td>2</td>
+	<td>dtype</td>
+	<td>We can change the data type of the array elements by changing this option to the specified type. The default is none.</td>
+</tr>
+<tr>
+	<td>3</td>
+	<td>copy</td>
+	<td>It is optional. By default, it is true which means the object is copied.</td>
+</tr> 
+<tr>
+	<td>4</td>
+	<td>order</td>
+	<td>There can be 3 possible values assigned to this option. It can be C (column order), R (row order), or A (any)</td>
+</tr>
+<tr>
+	<td>5</td>
+	<td>subok</td>
+	<td>The returned array will be base class array by default. We can change this to make the subclasses passes through by setting this option to true.</td>
+</tr>
+<tr>
+	<td>6</td>
+	<td>ndmin</td>
+	<td>It represents the minimum dimensions of the resultant array.</td>
+</tr>
+</table>
+<p>To create an array using the list, use the following syntax. </p>
+<div class="codeblock"><textarea name="code" class="python">
+&gt;&gt;&gt; a = numpy.array([1, 2, 3])
+</textarea></div>
+<img src="./images/numpy-ndarray2.png" alt="NumPy Ndarray"/>
+<p>To create a multi-dimensional array object, use the following syntax. </p>
+<div class="codeblock"><textarea name="code" class="python">
+&gt;&gt;&gt; a = numpy.array([[1, 2, 3], [4, 5, 6]])
+</textarea></div>
+<img src="./images/numpy-ndarray3.png" alt="NumPy Ndarray"/>
+<p>To change the data type of the array elements, mention the name of the data type along with the collection. </p>
+<div class="codeblock"><textarea name="code" class="python">
+&gt;&gt;&gt; a = numpy.array([1, 3, 5, 7], complex)
+</textarea></div>
+<img src="./images/numpy-ndarray4.png" alt="NumPy Ndarray"/>
+<h2 class="h2">Finding the dimensions of the Array</h2>
+<p>The <strong>ndim</strong> function can be used to find the dimensions of the array.</p>
+<div class="codeblock"><textarea name="code" class="python">
+&gt;&gt;&gt; import numpy as np
+&gt;&gt;&gt; arr = np.array([[1, 2, 3, 4], [4, 5, 6, 7], [9, 10, 11, 23]])
+
+&gt;&gt;&gt; print(arr.ndim)
+</textarea></div>
+<img src="./images/numpy-ndarray5.png" alt="NumPy Ndarray"/>
+<h2 class="h2">Finding the size of each array element </h2>
+<p>The itemsize function is used to get the size of each array item. It returns the number of bytes taken by each array element.</p>
+<p>Consider the following example. </p>
+<h3 class="h3">Example</h3>
+<div class="codeblock"><textarea name="code" class="python">
+#finding the size of each item in the array
+import numpy as np
+a = np.array([[1,2,3]])
+print("Each item contains",a.itemsize,"bytes")
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+Each item contains 8 bytes.
+</pre></div>
+<h2 class="h2">Finding the data type of each array item</h2>
+<p>To check the data type of each array item, the dtype function is used. Consider the following example to check the data type of the array items. </p>
+<h3 class="h3">Example</h3>
+<div class="codeblock"><textarea name="code" class="python">
+#finding the data type of each array item
+import numpy as np
+a = np.array([[1,2,3]])
+print("Each item is of the type",a.dtype)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+Each item is of the type int64
+</pre></div>
+<h2 class="h2">Finding the shape and size of the array</h2>
+<p>To get the shape and size of the array, the size and shape function associated with the numpy array is used. </p>
+<p>Consider the following example.</p>
+<h3 class="h3">Example</h3>
+<div class="codeblock"><textarea name="code" class="python">
+import numpy as np
+a = np.array([[1,2,3,4,5,6,7]])
+print("Array Size:",a.size)
+print("Shape:",a.shape)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+Array Size: 7
+Shape: (1, 7)
+</pre></div>
+<h2 class="h2">Reshaping the array objects </h2>
+<p>By the shape of the array, we mean the number of rows and columns of a multi-dimensional array. However, the numpy module provides us the way to reshape the array by changing the number of rows and columns of the multi-dimensional array.</p>
+<p>The reshape() function associated with the ndarray object is used to reshape the array. It accepts the two parameters indicating the row and columns of the new shape of the array. </p>
+<p>Let's reshape the array given in the following image.</p>
+<img src="./images/numpy-ndarray6.png" alt="NumPy Ndarray"/>
+<h3 class="h3">Example</h3>
+<div class="codeblock"><textarea name="code" class="python">
+import numpy as np
+a = np.array([[1,2],[3,4],[5,6]])
+print("printing the original array..")
+print(a)
+a=a.reshape(2,3)
+print("printing the reshaped array..")
+print(a)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+printing the original array..
+[[1 2]
+ [3 4]
+ [5 6]]
+printing the reshaped array..
+[[1 2 3]
+ [4 5 6]]
+</pre></div>
+<h2 class="h2">Slicing in the Array </h2>
+<p>Slicing in the NumPy array is the way to extract a range of elements from an array. Slicing in the array is performed in the same way as it is performed in the python list.</p>
+<p>Consider the following example to print a particular element of the array. </p>
+<h3 class="h3">Example</h3>
+<div class="codeblock"><textarea name="code" class="python">
+import numpy as np
+a = np.array([[1,2],[3,4],[5,6]])
+print(a[0,1])
+print(a[2,0])
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+2
+5
+</pre></div>
+<p>The above program prints the 2<sup>nd</sup> element from the 0<sup>th</sup> index and 0<sup>th</sup> element from the 2<sup>nd</sup> index of the array. </p>
+<h2 class="h2">Linspace</h2>
+<p>The linspace() function returns the evenly spaced values over the given interval. The following example returns the 10 evenly separated values over the given interval 5-15  </p>
+<h3 class="h3">Example</h3>
+<div class="codeblock"><textarea name="code" class="python">
+import numpy as np
+a=np.linspace(5,15,10) #prints 10 values which are evenly spaced over the given interval 5-15
+print(a)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+[ 5.          6.11111111  7.22222222  8.33333333  9.44444444 10.55555556
+ 11.66666667 12.77777778 13.88888889 15.        ]
+</pre></div>
+<h2 class="h2">Finding the maximum, minimum, and sum of the array elements </h2>
+<p>The NumPy provides the max(), min(), and sum() functions which are used to find the maximum, minimum, and sum of the array elements respectively.</p>
+<p>Consider the following example. </p>
+<h3 class="h3">Example</h3>
+<div class="codeblock"><textarea name="code" class="python">
+import numpy as np
+a = np.array([1,2,3,10,15,4])
+print("The array:",a)
+print("The maximum element:",a.max())
+print("The minimum element:",a.min())
+print("The sum of the elements:",a.sum())
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+The array: [ 1  2  3 10 15  4]
+The maximum element: 15
+The minimum element: 1
+The sum of the elements: 35
+</pre></div>
+
+<h2 class="h2">NumPy Array Axis </h2>
+<p>A NumPy multi-dimensional array is represented by the axis where axis-0 represents the columns and axis-1 represents the rows. We can mention the axis to perform row-level or column-level calculations like the addition of row or column elements.</p>
+<img src="./images/numpy-array-axis.png" alt="NumPy Ndarray"/>
+<p>To calculate the maximum element among each column, the minimum element among each row, and the addition of all the row elements, consider the following example.</p>
+<h3 class="h3">Example</h3>
+<div class="codeblock"><textarea name="code" class="python">
+import numpy as np
+a = np.array([[1,2,30],[10,15,4]])
+print("The array:",a)
+print("The maximum elements of columns:",a.max(axis = 0)) 
+print("The minimum element of rows",a.min(axis = 1))
+print("The sum of all rows",a.sum(axis = 1))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+The array: [[1  2  30]
+		   [10  15  4]]
+The maximum elements of columns: [10 15 30]
+The minimum element of rows [1 4]
+The sum of all rows [33 29]
+</pre></div>
+<h2 class="h2">Finding square root and standard deviation</h2>
+<p>The sqrt() and std() functions associated with the numpy array are used to find the square root and standard deviation of the array elements respectively. </p>
+<p>Standard deviation means how much each element of the array varies from the mean value of the numpy array.</p>
+<p>Consider the following example. </p>
+<h3 class="h3">Example</h3>
+<div class="codeblock"><textarea name="code" class="python">
+import numpy as np
+a = np.array([[1,2,30],[10,15,4]])
+print(np.sqrt(a))
+print(np.std(a))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+[[1.         1.41421356 5.47722558]
+ [3.16227766 3.87298335 2.        ]]
+10.044346115546242
+</pre></div>
+<h2 class="h2">Arithmetic operations on the array </h2>
+<p>The numpy module allows us to perform the arithmetic operations on multi-dimensional arrays directly.</p>
+<p>In the following example, the arithmetic operations are performed on the two multi-dimensional arrays a and b. </p>
+<h3 class="h3">Example</h3>
+<div class="codeblock"><textarea name="code" class="python">
+import numpy as np
+a = np.array([[1,2,30],[10,15,4]])
+b = np.array([[1,2,3],[12, 19, 29]])
+print("Sum of array a and b\n",a+b)
+print("Product of array a and b\n",a*b)
+print("Division of array a and b\n",a/b)
+</textarea></div>
+<h2 class="h2">Array Concatenation </h2>
+<p>The numpy provides us with the vertical stacking and horizontal stacking which allows us to concatenate two multi-dimensional arrays vertically or horizontally. </p>
+<p>Consider the following example. </p>
+<h3 class="h3">Example</h3>
+<div class="codeblock"><textarea name="code" class="python">
+import numpy as np
+a = np.array([[1,2,30],[10,15,4]])
+b = np.array([[1,2,3],[12, 19, 29]])
+print("Arrays vertically concatenated\n",np.vstack((a,b)));
+print("Arrays horizontally concatenated\n",np.hstack((a,b)))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+Arrays vertically concatenated
+ [[ 1  2 30]
+ [10 15  4]
+ [ 1  2  3]
+ [12 19 29]]
+Arrays horizontally concatenated
+ [[ 1  2 30  1  2  3]
+ [10 15  4 12 19 29]]
+</pre></div>
+
+<hr/>
+<div class="nexttopicdiv">
+<span class="nexttopictext">Next Topic</span><span class="nexttopiclink"><a href="numpy-datatypes.html">NumPy DataTypes</a></span>
+</div>
+<!-- link -->
+<br/><br/>
+<div id="bottomnext">
+<a style="float:left" class="next" href="numpy-environment-setup.html">&larr; prev</a>
+<a style="float:right" class="next" href="numpy-datatypes.html">next &rarr;</a>
+</div>
+
+<br/><br/>
+</td></tr>
+</table>
+</div>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- AP_37780_300x250(0) -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4699858549023382"
+     data-ad-slot="5022809933"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+ 
+</div>
+
+
+<br><br/><div class="mobilemenu" style="clear:both">
+<ins class="adPushupAds" data-adpControl="jrfe7" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByZXNwb25zaXZlbW9iaWxlZm9vdGVyIC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTpibG9jayIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI4MjIyODY2MzE4IgogICAgIGRhdGEtYWQtZm9ybWF0PSJhdXRvIgogICAgIGRhdGEtZnVsbC13aWR0aC1yZXNwb25zaXZlPSJ0cnVlIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+</div></div>
+
+<div id="right">
+
+<ins class="adPushupAds" data-adpControl="am3c1" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBuZXdyaWdodCAtLT4KPGlucyBjbGFzcz0iYWRzYnlnb29nbGUiCiAgICAgc3R5bGU9ImRpc3BsYXk6YmxvY2siCiAgICAgZGF0YS1hZC1jbGllbnQ9ImNhLXB1Yi00Njk5ODU4NTQ5MDIzMzgyIgogICAgIGRhdGEtYWQtc2xvdD0iNjAzNDkxMjU0MSIKICAgICBkYXRhLWFkLWZvcm1hdD0iYXV0byIKICAgICBkYXRhLWZ1bGwtd2lkdGgtcmVzcG9uc2l2ZT0idHJ1ZSI+PC9pbnM+CjxzY3JpcHQ+CihhZHNieWdvb2dsZSA9IHdpbmRvdy5hZHNieWdvb2dsZSB8fCBbXSkucHVzaCh7fSk7Cjwvc2NyaXB0Pg=="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+<br/><br/>
+
+<ins class="adPushupAds" data-adpControl="am3c1" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBuZXdyaWdodCAtLT4KPGlucyBjbGFzcz0iYWRzYnlnb29nbGUiCiAgICAgc3R5bGU9ImRpc3BsYXk6YmxvY2siCiAgICAgZGF0YS1hZC1jbGllbnQ9ImNhLXB1Yi00Njk5ODU4NTQ5MDIzMzgyIgogICAgIGRhdGEtYWQtc2xvdD0iNjAzNDkxMjU0MSIKICAgICBkYXRhLWFkLWZvcm1hdD0iYXV0byIKICAgICBkYXRhLWZ1bGwtd2lkdGgtcmVzcG9uc2l2ZT0idHJ1ZSI+PC9pbnM+CjxzY3JpcHQ+CihhZHNieWdvb2dsZSA9IHdpbmRvdy5hZHNieWdvb2dsZSB8fCBbXSkucHVzaCh7fSk7Cjwvc2NyaXB0Pg=="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+<br/><br/>
+</div>
+
+<div class="right1024" style="float:left;margin-left:10px;margin-top:120px;">
+<!-- right1024only -->
+<ins class="adPushupAds" data-adpControl="6d5qg" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+<br/><br/>
+<ins class="adPushupAds" data-adpControl="6d5qg" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+</div>
+<br/>
+
+</div>
+</div>
+</div>
+<script src="./js/shcoreandbrush.js">
+</script>
+<script>dp.SyntaxHighlighter.HighlightAll('code'); 
+</script>
+<script src=".js/lazysizes.min.js">-->
+<script src="./js/lazysizes.min.js" async></script>
+</body> 
+</html> 

@@ -1,0 +1,768 @@
+
+ <!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Python Openpyxl Tutorial - ITM e-Learning</title><link rel="SHORTCUT ICON" href="./images/favicon2.png"/>
+<link rel="stylesheet" type="text/css" href="./css/link.css"/><link rel="dns-prefetch" href="https://clients1.google.com"><link rel="dns-prefetch" href="https://static.javatpoint.com"><link rel="dns-prefetch" href="https://googleads.g.doubleclick.net"><link rel="dns-prefetch" href="https://www.google.com"><link rel="dns-prefetch" href="https://feedify.net"><meta name="theme-color" content="#4CAF50"/><meta property="og:title" content="Learn Python Tutorial - javatpoint" /><meta property="og:description" content="Learn Python Tutorial for beginners and professional with various python topics such as loops, strings, lists, dictionary, tuples, date, time, files, functions, modules, methods, exceptions etc." />
+<meta name="keywords" content="python, tutorial, examples, programs, language, beginners, introduction, strings, lists, dictionary, tuples, date, time"/><meta name="description" content="Learn Python Tutorial for beginners and professional with various python topics such as loops, strings, lists, dictionary, tuples, date, time, files, functions, modules, methods, exceptions etc."/><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="canonical" href="python-tutorial.html" />
+
+
+<link href="./css/manifest.json" rel="manifest">
+<script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/37784/adRecover.js?ts=1543562646174'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
+<script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//cdn.adpushup.com/37780/adpushup.js'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
+</head> 
+<body onload="highlightlink()"> 
+ 
+
+            <div style="float:left;width:60%;">
+<script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+                
+            </div>
+            
+        </td>
+    </tr>
+        
+</table> </div>
+
+<div style="margin:0px;padding:0px;clear:both">
+<script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+
+</div>
+</div>
+
+<div class="mobilemenu" style="clear:both"> 
+<!-- Cm_300x250_Mob_14/9 -->
+<ins class="adPushupAds" data-adpControl="hqdgs" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDbV8zMDB4MjUwX01vYl8xNC85IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MzAwcHg7aGVpZ2h0OjI1MHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjcwMTQyNzI1MTkiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+</div>
+
+<div id="menu">
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Python Tutorial</span></h2>
+</div>
+
+<div class="leftmenu">
+<a href="python.html">Python Tutorial</a>
+<a href="python-features.html" >Python Features</a>
+<a href="python-history.html" >Python History</a>
+<a href="python-applications.html" >Python Applications</a>
+<a href="how-to-install-python.html" >Python Install</a>
+<a href="python-example.html" >Python Example</a>
+<a href="python-variables.html" >Python Variables</a>
+<a href="python-data-types.html" >Python Data Types</a>
+<a href="python-keywords.html" >Python Keywords</a>
+<a href="python-literals.html" >Python Literals</a>
+<a href="python-operators.html" >Python Operators</a>
+<a href="python-comments.html" >Python Comments</a>
+<a href="python-if-else.html" >Python If else</a>
+<a href="python-loops.html" >Python Loops</a>
+<a href="python-for-loop.html" >Python For Loop</a>
+<a href="python-while-loop.html" >Python While Loop</a>
+<a href="python-break.html" >Python Break</a>
+<a href="python-continue.html" >Python Continue</a>
+<a href="python-pass.html" >Python Pass</a>
+<a href="python-strings.html"><span>Python Strings</span></a>
+<a href="python-lists.html"><span>Python Lists</span></a>
+<a href="python-tuples.html"><span>Python Tuples</span></a>
+<a href="python-set.html"><span>Python Sets</span></a>
+<a href="python-dictionary.html"><span>Python Dictionary</span></a>
+<a href="python-functions.html"><span>Python Functions</span></a> 
+<a href="python-built-in-functions.html"><span>Python Built-in Functions</span></a>
+<a href="python-lambda-functions.html"><span>Python Lambda Functions</span></a>
+<a href="python-files-io.html"><span>Python Files I/O</span></a>
+<a href="python-modules.html"><span>Python Modules</span></a>
+<a href="python-exception-handling.html
+"><span>Python Exceptions</span></a>
+<a href="python-date.html"><span>Python Date</span></a>
+<a href="python-regex.html">Python Regex</a>
+<a href="python-sending-email.html">Python Sending Email</a>
+
+<a href="python-read-csv-file.html">Read CSV File</a>
+<a href="python-write-csv-file.html">Write CSV File</a>
+<a href="python-read-excel-file.html">Read Excel File</a>
+<a href="python-write-excel-file.html">Write Excel File</a>
+<a href="python-assert-keyword.html">Python Assert</a>
+
+<a href="python-list-comprehension.html">Python List Comprehension</a>
+<a href="python-collection-module.html">Python Collection Module</a>
+<a href="python-math-module.html">Python Math Module</a>
+<a href="python-os-module.html">Python OS Module</a>
+<a href="python-random-module.html">Python Random Module</a>
+<a href="python-statistics-module.html">Python Statistics Module</a>
+<a href="python-sys-module.html">Python Sys Module</a>
+
+<a href="python-ides.html">Python IDEs</a>
+
+<a href="python-arrays.html">Python Arrays</a>
+<a href="python-command-line-arguments.html">Command Line Arguments</a>
+<a href="python-magic-method.html">Python Magic Method</a>
+<a href="python-stack-and-queue.html">Python Stack &amp; Queue</a>
+
+<a href="pyspark-mllib.html">PySpark MLlib</a>
+<a href="python-decorator.html">Python Decorator</a>
+<a href="python-generators.html">Python Generators</a>
+<a href="web-scraping-using-python.html">Web Scraping Using Python</a>
+<a href="python-json.html">Python JSON</a>
+<a href="python-itertools.html">Python Itertools</a>
+</div>
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Python OOPs</span></h2>
+</div>
+
+<div class="leftmenu"  >
+<a href="python-oops-concepts.html" >Python OOPs Concepts</a>
+<a href="python-objects-classes.html" >Python Object Class</a>
+<a href="python-constructors.html" >Python Constructors</a>
+<a href="inheritance-in-python.html" >Python Inheritance</a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python MySQL</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-mysql-environment-setup.html">Environment Setup</a>
+<a href="python-mysql-database-connection.html">Database Connection</a>
+<a href="python-mysql-creating-new-database.html">Creating New Database</a>
+<a href="python-mysql-creating-tables.html">Creating Tables</a>
+<a href="python-mysql-insert-operation.html">Insert Operation</a>
+<a href="python-mysql-read-operation.html">Read Operation</a>
+<a href="python-mysql-update-operation.html">Update Operation</a>
+<a href="python-mysql-join-operation.html">Join Operation</a>
+<a href="python-mysql-performing-transactions.html">Performing Transactions</a>
+</div>
+
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python MongoDB</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-mongodb.html">Python MongoDB</a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python SQLite</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-sqlite.html">Python SQLite</a>
+</div>
+
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python Tkinter (GUI)</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-tkinter.html">Python Tkinter</a>
+<a href="python-tkinter-button.html">Tkinter Button</a>
+<a href="python-tkinter-canvas.html">Tkinter Canvas</a>
+<a href="python-tkinter-checkbutton.html">Tkinter Checkbutton</a>
+<a href="python-tkinter-entry.html">Tkinter Entry</a>
+<a href="python-tkinter-frame.html">Tkinter Frame</a>
+<a href="python-tkinter-label.html">Tkinter Label</a>
+
+<a href="python-tkinter-listbox.html">Tkinter Listbox</a>
+<a href="python-tkinter-menubutton.html">Tkinter Menubutton</a>
+
+<a href="python-tkinter-menu.html">Tkinter Menu</a>
+<a href="python-tkinter-message.html">Tkinter Message</a>
+<a href="python-tkinter-radiobutton.html">Tkinter Radiobutton</a>
+
+<a href="python-tkinter-scale.html">Tkinter Scale</a>
+<a href="python-tkinter-scrollbar.html">Tkinter Scrollbar</a>
+<a href="python-tkinter-text.html">Tkinter Text</a>
+<a href="python-tkinter-toplevel.html">Tkinter Toplevel</a>
+<a href="python-tkinter-spinbox.html">Tkinter Spinbox</a>
+
+<a href="python-tkinter-panedwindow.html">Tkinter PanedWindow</a>
+<a href="python-tkinter-labelframe.html">Tkinter LabelFrame</a>
+<a href="python-tkinter-messagebox.html">Tkinter MessageBox</a>
+
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python Web Blocker</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-website-blocker.html">Introduction</a>
+<a href="python-website-blocker-building-python-script.html">Building Python Script</a>
+<a href="python-website-blocker-script-deployment-on-linux.html">Script Deployment on Linux</a>
+<a href="python-website-blocker-script-deployment-on-windows.html">Script Deployment on Windows</a>
+</div>
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Related Tutorials</span></h2>
+</div>
+
+<div class="leftmenu"  >
+<a href="numpy-tutorial.html"><span>NumPy Tutorial</span></a>
+<a href="django-tutorial.html"><span>Django Tutorial</span></a>
+<a href="flask-tutorial.html"><span>Flask Tutorial</span></a>
+
+<a href="python-pandas.html"><span>Pandas Tutorial</span></a>
+<a href="pytorch.html"><span>Pytorch Tutorial</span></a>
+<a href="pygame.html"><span>Pygame Tutorial</span></a>
+<a href="matplotlib.html"><span>Matplotlib Tutorial</span></a>
+<a href="opencv.html"><span>OpenCV Tutorial</span></a>
+<a href="python-openpyxl.html"><span>Openpyxl Tutorial</span></a>
+
+</div>
+
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Python Programs</span></h2>
+</div>
+
+<div class="leftmenu"  >
+<a href="python-programs.html"><span>Python Programs</span></a>
+</div>
+
+
+<div id="leftad" style="margin-left:20px">
+<!-- javatpointleft -->
+<ins class="adPushupAds" data-adpControl="g8drp" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBqYXZhdHBvaW50bGVmdCAtLT4KPGlucyBjbGFzcz0iYWRzYnlnb29nbGUiCiAgICAgc3R5bGU9ImRpc3BsYXk6aW5saW5lLWJsb2NrO3dpZHRoOjE2MHB4O2hlaWdodDo2MDBweCIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI0NDc2NDAxMjIyIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+</div>
+</div>
+<div class="onlycontent">
+<div class="onlycontentad">
+<!-- CM_JTP_Leaderbaord -->
+<ins class="adPushupAds" data-adpControl="nuoc1" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDTV9KVFBfTGVhZGVyYmFvcmQgLS0+CjxpbnMgY2xhc3M9ImFkc2J5Z29vZ2xlIgogICAgIHN0eWxlPSJkaXNwbGF5OmJsb2NrIgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjkyMDE5MDE5MTUiCiAgICAgZGF0YS1hZC1mb3JtYXQ9ImF1dG8iCiAgICAgZGF0YS1mdWxsLXdpZHRoLXJlc3BvbnNpdmU9InRydWUiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+</div>
+<div class="onlycontentinner">
+<div id="city">
+<table>
+<tr><td>
+
+<h1 class="h1">Python Openpyxl</h1>
+<img src="./images/python-openpyxl-tutorial.png" class="imageright" alt="Python Openpyxl"/>
+
+<hr/>
+<h2 id="Introduction" class="h2">Python Openpyxl Introduction</h2>
+<p>Python provides the Openpyxl module, which is used to deal with Excel files without involving third-party Microsoft application software. By using this module, we can have control over excel without open the application. It is used to perform excel tasks such <strong>as read data from excel file, or write data to the excel file, draw some charts, accessing excel sheet, renaming sheet, modification (adding and deleting) in excel sheet, formatting, styling in the sheet</strong>, and any other task. Openpyxl is very efficient to perform these tasks for you.</p>
+<p>Data scientists often use the Openpyxl to perform different operations such as data copying to data mining as well as data analysis.</p>
+<hr/>
+<h2 id="WorkingProcess" class="h2">Openpyxl Working Process</h2>
+<p>The Openpyxl library is used to write or read the data in the excel file and many other tasks. An excel file that we use for operation is called Workbook that contains a minimum of one Sheet and a maximum of tens of sheets.</p>
+<ul class="points">
+<li>Sheets consist of Rows (horizontal series) starting from 1 and Columns (vertical series) starting from A.</li>
+<li>Row and column together make a grid and form a cell that may store some data. Data can be of any type, such as numeric, string.</li>
+<li>Openpyxl provides flexibility to read data from the individual cell or write data to it.</li>
+</ul>
+<hr/>
+<h2 id="Installation" class="h2">Installation of Openpyxl</h2>
+<p>In the above section, we have discussed the <strong>openpyxl</strong> briefly and its working process. In order to use Openpyxl, one should have Python 3.7 and <strong>openpyxl</strong> 2.6.2 installed in the system. Let's start working with openpyxl by installing <strong>openpyxl</strong> using the following command:</p>
+<div class="codeblock"><textarea name="code" class="java">
+pip install openpyxl
+</textarea></div>
+<p>The <strong>xlsx</strong> is the extension of the <a href="https://www.javatpoint.com/xml-tutorial">XML</a> spreadsheet file. The xlsx file supports macros. Let's understand the basic operation related to the excel file. Consider the following code:</p>
+<div class="codeblock"><textarea name="code" class="java">
+from openpyxl import Workbook
+import time
+
+wb = Workbook()
+sheet = wb.active
+
+sheet['A1'] = 87
+sheet['A2'] = "Devansh"
+sheet['A3'] = 41.80
+sheet['A4'] = 10
+
+now = time.strftime("%x")
+sheet['A5'] = now
+
+wb.save("sample_file.xlsx")
+</textarea></div>
+<p><strong>Output:</strong></p>
+<img src="./images/openpyxl-installation.png" alt="Openpyxl Installation"/>
+<p>In the above code, we have written data into the five cells A1, A2, A3, A4, and A5. These cells consist of different types of values. We have imported Workbook class from the openpyxl module. A workbook class is a container that contains all parts of the document.</p>
+<p>Here we have defined a new workbook. At least one sheet is always made with a workbook.</p>
+<div class="codeblock"><textarea name="code" class="java">
+wb = Workbook()
+</textarea></div>
+<p>We get the location of the active sheet.</p>
+<div class="codeblock"><textarea name="code" class="java">
+sheet['A1'] = 87
+sheet['A2'] = 'Devansh'
+</textarea></div>
+<p>We have saved all data to the <strong>sample_file.xlsx </strong>file using the <strong>save()</strong> method.</p>
+<hr/>
+<h2 id="WriteDatatoCell" class="h2">Openpyxl Write Data to Cell</h2>
+<p>We can add data to the excel file using the following Python code. First, we will import the <strong>load_workbook</strong> function from the <strong>openpyxl</strong> module, then create the object of the file and pass <strong>filepath</strong> as an argument. Consider the following code:</p>
+<div class="codeblock"><textarea name="code" class="java">
+from openpyxl import load_workbook
+wb = load_workbook(r'C:\Users\DEVANSH SHARMA\Desktop\demo.xlsx')
+
+sheet = wb.active
+sheet['A1'] = 'Devansh Sharma'
+
+sheet.cell(row=2, column=2).value = 5
+wb.save(r'C:\Users\DEVANSH SHARMA\Desktop\demo.xlsx')
+</textarea></div>
+<p><strong>Output:</strong></p>
+<img src="./images/openpyxl-write-data-to-cell.png" alt="Openpyxl Write Data to Cell"/>
+<hr/>
+<h2 id="AppendValues" class="h2">Openpyxl Append values</h2>
+<p>Openpyxl provides an <strong>append()</strong> method, which is used to append the group of values. We can append any type of value. These values are appended at the bottom of the current working sheet. Consider the following code:</p>
+<div class="codeblock"><textarea name="code" class="java">
+from openpyxl import Workbook
+
+wb = Workbook()
+sheet = wb.active
+
+data = (
+    (11, 48, 50),
+    (81, 30, 82),
+    (20, 51, 72),
+    (21, 14, 60),
+    (28, 41, 49),
+    (74, 65, 53),
+    ("Peter", 'Andrew',45.63)
+)
+
+for i in data:
+    sheet.append(i)
+wb.save('appending_values.xlsx')
+</textarea></div>
+<p><strong>Output:</strong></p>
+<img src="./images/openpyxl-append-values.png" alt="Openpyxl Append values"/>
+<hr/>
+<h2 id="ReadDatafromCell" class="h2">Openpyxl Read Data from cell</h2>
+<p>We can read the data that we have previously written in the cell. There are two methods to read a cell, firstly we can access it by cell name, and secondly, we can access it by the cell() function. For example, we are reading the data from the sample_file.xlrs file. </p>
+<div class="codeblock"><textarea name="code" class="java">
+import openpyxl
+
+wb = openpyxl.load_workbook('sample_file.xlsx')
+
+sheet = wb.active
+
+x1 = sheet['A1']
+x2 = sheet['A2']
+#using cell() function
+x3 = sheet.cell(row=3, column=1)
+
+print("The first cell value:",x1.value)
+print("The second cell value:",x2.value)
+print("The third cell value:",x3.value)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+The first cell value: 87
+The second cell value: Devansh
+The third cell value: 41.8
+</pre></div>
+<hr/>
+<h2 id="ReadMultipleCells" class="h2">Openpyxl Read multiple cells</h2>
+<p>We can read the values from the multiple cells. In the following example, we have <strong>marks.xlsx</strong> named excel file and we will read each cell of file using the range operator. Let's have a look at the following program:</p>
+<div class="codeblock"><textarea name="code" class="java">
+import openpyxl
+
+wb = openpyxl.load_workbook('marks.xlsx')
+
+sheet = wb.active
+#
+cells = sheet['A1','B7']
+# cells behave like range operator
+for i1,i2 in cells:
+    print("{0:8} {1:8}".format(i1.value,i2.value))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+Student_name        Marks
+Tony Stark           47
+Loki                 59
+Oddin                73
+Nick Fury            62
+Samaul               75
+Peter Parkar         80
+</pre></div>
+<hr/>
+<h2 id="Iteratebyrows" class="h2">Openpyxl Iterate by rows</h2>
+<p>The openpyxl provides the <strong>iter_row()</strong> function, which is used to read data corresponding to rows. Consider the following example:</p>
+<div class="codeblock"><textarea name="code" class="java">
+from openpyxl import Workbook
+
+wb = Workbook()
+sheet = wb.active
+
+rows = (
+    (90, 46, 48, 44),
+    (81, 30, 32, 16),
+    (23, 95, 87,27),
+    (65, 12, 89, 53),
+    (42, 81, 40, 44),
+    (34, 51, 76, 42)
+)
+
+for row in rows:
+    sheet.append(row)
+
+for row in sheet.iter_rows(min_row=1, min_col=1, max_row=6, max_col=4):
+    for cell in row:
+        print(cell.value, end=" ")
+    print()
+
+book.save('iter_rows.xlsx')
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+90 46 48 44 
+81 30 32 16 
+23 95 87 27 
+65 12 89 53 
+42 81 40 44 
+34 51 76 42
+</pre></div>
+<hr/>
+<h2 id="IteratebyColumn" class="h2">Openpyxl Iterate by Column</h2>
+<p>The openpyxl provides <strong>iter_col()</strong> method which return cells from the worksheet as columns. Consider the following example: </p>
+<div class="codeblock"><textarea name="code" class="java">
+from openpyxl import Workbook
+
+book = Workbook()
+sheet = book.active
+
+rows = (
+     (90, 46, 48, 44),
+     (81, 30, 32, 16),
+     (23, 95, 87, 27),
+     (65, 12, 89, 53),
+     (42, 81, 40, 44),
+     (34, 51, 76, 42)
+)
+for row in rows:
+    sheet.append(row)
+
+for row in sheet.iter_cols(min_row=1, min_col=1, max_row=6, max_col=3):
+    for cell in row:
+        print(cell.value, end=" ")
+    print()
+
+book.save('iterbycols.xlsx')
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+90 81 23 65 42 34 
+46 30 95 12 81 51 
+48 32 87 89 40 76
+</pre></div>
+<hr/>
+<h2 id="Sheets" class="h2">Openpyxl Sheets</h2>
+<p>As we know that each workbook can have multiple sheets. First, we need to create more than one sheet in a single workbook then we can access those excel sheets using <a href="https://www.javatpoint.com/python-tutorial">Python</a>. In the following example, we have created a workbook with three sheets:</p>
+<div class="codeblock"><textarea name="code" class="java">
+import openpyxl
+wb = openpyxl.load_workbook('dimension_1.xlsx')
+
+#Getting list of all sheet available in workbook
+print(wb.get_sheet_names())
+
+# Returning object
+active_sheet = wb.active
+print(type(active_sheet))
+
+# Title of sheet
+sheet = wb.get_sheet_by_name("Monday")
+print(sheet.title)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+['Sheet', 'Sunday', 'Monday', 'Tuesday', 'Wednesday']
+&lt;class 'openpyxl.worksheet.worksheet.Worksheet'&gt;
+Monday
+</pre></div>
+<p>It will look like the following image.</p>
+<img src="./images/openpyxl-sheets.png" alt="Openpyxl Sheets"/>
+<hr/>
+<h2 id="Filterandsort" class="h2">Openpyxl filter and sort data</h2>
+<p>The <strong>auto_filter</strong> attribute is used to set filtering and sorting conditions. Consider the following code:</p>
+<div class="codeblock"><textarea name="code" class="java">
+from openpyxl import Workbook
+
+wb = Workbook()
+sheet = wb.active
+
+sheet['A3'] = 40
+sheet['B3'] = 26
+
+row_count = [
+    (93,45),
+    (23,54),
+    (80,43),
+    (21,12),
+    (63,29),
+    (34,15),
+    (80,68),
+    (20,41)
+]
+
+for row in row_count:
+    sheet.append(row)
+
+print(sheet.dimensions)
+
+for a1,a2 in sheet[sheet.dimensions]:
+    print(a1.value, a2.value)
+
+sheet.auto_filter.add_sort_condition('B2:B8')
+sheet.auto_filter.add_filter_column(1, ['40', '26'])
+
+wb.save('dimension_1.xlsx')
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock"><pre>
+A3:B11
+40 26
+93 45
+23 54
+80 43
+21 12
+63 29
+34 15
+80 68
+20 41
+</pre></div>
+<hr/>
+<h2 id="Mergingcells" class="h2">Openpyxl Merging cell</h2>
+<p>We can merge the cell using the <strong>merge_cells()</strong> method. When we merge the cells, the top-left one is removed from the worksheet. The <strong>openpyxl</strong> also provides the <strong>unmerged_cells()</strong> method to unmerge the cell. Consider the following code:</p>
+<div class="codeblock"><textarea name="code" class="java">
+from openpyxl.styles import Alignment
+
+wb = Workbook()
+sheet = wb.active
+
+sheet.merge_cells('A1:B2')
+
+cell = sheet.cell(row=1, column=1)
+cell.value = 'Devansh Sharma'
+cell.alignment = Alignment(horizontal='center', vertical='center')
+
+wb.save('merging.xlsx')
+</textarea></div>
+<p><strong>Output:</strong></p>
+<img src="./images/openpyxl-merging-cell.png" alt="Openpyxl Merging cell"/>
+<p>The freezing panes are simply mean to freeze an area of worksheet as visible while scrolling to other parts of the worksheet. It is useful feature where we can display the top row or leftmost column on the screen. We can do this by passing the cell name to the <strong>freeze_panes</strong> variable. To unfreeze all panes, set freeze_panes to '<strong>None</strong>'. Consider the following code:</p>
+<div class="codeblock"><textarea name="code" class="java">
+from openpyxl import Workbook
+from openpyxl.styles import Alignment
+
+wb = Workbook()
+sheet = wb.active
+
+sheet.freeze_panes = 'A1'
+
+wb.save('freez_cells.xlsx')
+</textarea></div>
+<p><strong>Output:</strong></p>
+<p>Run the above code and scroll the worksheet.</p>
+
+<h2 class="h2">Openpyxl formulas</h2>
+<p>We can write formula into the cell. These formulas are used to perform operations in excel file. After writing in the cell execute it from the workbook. Consider the following example:</p>
+<div class="codeblock"><textarea name="code" class="java">
+from openpyxl import Workbook
+wb = Workbook()
+sheet = wb.active
+
+rows_count = (
+    (14, 27),
+    (22, 30),
+    (42, 92),
+    (51, 32),
+    (16, 60),
+    (63, 13)
+)
+
+for i in rows_count:
+    sheet.append(i)
+
+cell = sheet.cell(row=7, column=3)
+cell.value = "=SUM(A1:B6)"
+cell.font = cell.font.copy(bold=True)
+
+wb.save('formulas_book.xlsx')
+</textarea></div>
+<p><strong>Output:</strong></p>
+<img src="./images/openpyxl-formulas.png" alt="Openpyxl formulas"/>
+
+<h2 class="h2">Openpyxl Cell Inverter</h2>
+<p>The <strong>openpyxl</strong> cell inverter is used to invert the row and column of the cell in the spreadsheet. For example, the value at 3 rows will be inverted into 5 columns and row at row 5 will invert to column 3 (vice versa).  You can see in the following images:</p>
+<img src="./images/openpyxl-cell-inverter.png" alt="Openpyxl Cell Inverter"/>
+<br>
+<img src="./images/openpyxl-cell-inverter2.png" alt="Openpyxl Cell Inverter"/>
+<p>This program is written with the help of nested for loop. First the data structure writes in the sheetData[x][y] for the cell at column x and row y then the newly created spreadsheet in the spreadData[y][x] for the cell at column y and row x. </p>
+<hr/>
+<h2 id="Addingchart" class="h2">Adding Chart to Excel File</h2>
+<p>Charts are effective way to represent the data. Using the charts, it visualizes the data which can be easily untestable. There are various types of chart: pie chart, line chart, bar chart, and so on. We can draw a chart on a spreadsheet using an <strong>openpyxl</strong> module.</p>
+<p>For building any chart on the spreadsheet, we need to define the chart type like BarChart, LineChart, and so on. We also import reference which represents data that is used for the chart. It is important to define what data we want to represent on the chart. Let's understand by the following example:</p>
+<div class="codeblock"><textarea name="code" class="java">
+from openpyxl import Workbook
+from openpyxl.chart import BarChart, Reference
+
+wb = Workbook()
+sheet = wb.active
+
+# Let's create some sample student data
+rows = [
+    ["Serial_no", "Roll no", "Marks"],
+    [1, "0090011", 75],
+    [2, "0090012", 60],
+    [3, "0090013", 43],
+    [4, "0090014", 97],
+    [5, "0090015", 63],
+    [6, "0090016", 54],
+    [7, "0090017", 86],
+]
+
+for i in rows:
+    sheet.append(i)
+
+chart = BarChart()
+values = Reference(worksheet=sheet,
+                 min_row=1,
+                 max_row=8,
+                 min_col=2,
+                 max_col=3)
+
+chart.add_data(values, titles_from_data=True)
+sheet.add_chart(chart, "E2")
+
+wb.save("student_chart.xlsx")
+</textarea></div>
+<p><strong>Output:</strong></p>
+<img src="./images/openpyxl-adding-chart-to-excel-file.png" alt="Openpyxl Adding Chart to Excel File"/>
+<p>In the above code, we have created the sample data and drawn the bar chart corresponding to sample data.</p>
+<p>Now we will create the line chart. Consider the following code:</p>
+<div class="codeblock"><textarea name="code" class="java">
+import random
+from openpyxl import Workbook
+from openpyxl.chart import LineChart, Reference
+
+wb = Workbook()
+spreadsheet = wb.active
+
+# Let's create some sample data
+rows = [
+    ["", "January", "February", "March", "April",
+    "May", "June", "July", "August", "September",
+     "October", "November", "December"],
+    [1, ],
+    [2, ],
+    [3, ],
+]
+
+for row in rows:
+    spreadsheet.append(row)
+
+for row in spreadsheet.iter_rows(min_row=2,
+                           max_row=4,
+                           min_col=2,
+                           max_col=13):
+    for cell in row:
+        cell.value = random.randrange(5, 100)
+
+chart = LineChart()
+data = Reference(worksheet=spreadsheet,
+                 min_row=2,
+                 max_row=4,
+                 min_col=1,
+                 max_col=13)
+
+chart.add_data(data, from_rows=True, titles_from_data=True)
+spreadsheet.add_chart(chart, "C6")
+
+wb.save("line_chart1.xlsx")
+</textarea></div>
+<p><strong>Output:</strong></p>
+<img src="./images/openpyxl-adding-chart-to-excel-file2.png" alt="Openpyxl Adding Chart to Excel File"/>
+<p>In the above code, we are used <strong>from_rows = True</strong> as a parameter, it denotes chart plot row by row instead of the column by column.</p>
+<hr/>
+<h2 id="AddingImage" class="h2">Adding Image</h2>
+<p>Images are not generally used in a spreadsheet but sometimes we can use as per our requirement. We can use an image for the branding purposes or to make the spreadsheet more personal and attractive. For loading an image to spreadsheet, we need to install an additional module called pillow by the following command.</p>
+<div class="codeblock"><textarea name="code" class="java">
+pip install pillow 
+</textarea></div>
+<p>In the following program, we are importing the image into the excel file. </p>
+<div class="codeblock"><textarea name="code" class="java">
+from openpyxl import load_workbook
+from openpyxl.drawing.image import Image
+
+# Let's use the hello_world spreadsheet since it has less data
+workbook = load_workbook(filename="student_chart1.xlsx")
+sheet = workbook.active
+
+logo = Image(r"C:\Users\DEVANSH SHARMA\Pictures\Screenshots\image.png")
+
+# A bit of resizing to not fill the whole spreadsheet with the logo
+logo.height = 150
+logo.width = 150
+
+sheet.add_image(logo, "E2")
+workbook.save(filename="hello_world_logo1.xlsx")
+</textarea></div>
+<p>In this tutorial, we have covered all basic and advance concept of <strong>openpyxl</strong>. </p>
+
+<hr/>
+
+<br/><br/>
+</td></tr>
+</table>
+</div>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- AP_37780_300x250(0) -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4699858549023382"
+     data-ad-slot="5022809933"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+ 
+</div>
+
+
+<br><br/><div class="mobilemenu" style="clear:both">
+<ins class="adPushupAds" data-adpControl="jrfe7" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByZXNwb25zaXZlbW9iaWxlZm9vdGVyIC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTpibG9jayIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI4MjIyODY2MzE4IgogICAgIGRhdGEtYWQtZm9ybWF0PSJhdXRvIgogICAgIGRhdGEtZnVsbC13aWR0aC1yZXNwb25zaXZlPSJ0cnVlIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+</div></div>
+
+<div id="right">
+
+<ins class="adPushupAds" data-adpControl="am3c1" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBuZXdyaWdodCAtLT4KPGlucyBjbGFzcz0iYWRzYnlnb29nbGUiCiAgICAgc3R5bGU9ImRpc3BsYXk6YmxvY2siCiAgICAgZGF0YS1hZC1jbGllbnQ9ImNhLXB1Yi00Njk5ODU4NTQ5MDIzMzgyIgogICAgIGRhdGEtYWQtc2xvdD0iNjAzNDkxMjU0MSIKICAgICBkYXRhLWFkLWZvcm1hdD0iYXV0byIKICAgICBkYXRhLWZ1bGwtd2lkdGgtcmVzcG9uc2l2ZT0idHJ1ZSI+PC9pbnM+CjxzY3JpcHQ+CihhZHNieWdvb2dsZSA9IHdpbmRvdy5hZHNieWdvb2dsZSB8fCBbXSkucHVzaCh7fSk7Cjwvc2NyaXB0Pg=="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+<br/><br/>
+
+<ins class="adPushupAds" data-adpControl="am3c1" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBuZXdyaWdodCAtLT4KPGlucyBjbGFzcz0iYWRzYnlnb29nbGUiCiAgICAgc3R5bGU9ImRpc3BsYXk6YmxvY2siCiAgICAgZGF0YS1hZC1jbGllbnQ9ImNhLXB1Yi00Njk5ODU4NTQ5MDIzMzgyIgogICAgIGRhdGEtYWQtc2xvdD0iNjAzNDkxMjU0MSIKICAgICBkYXRhLWFkLWZvcm1hdD0iYXV0byIKICAgICBkYXRhLWZ1bGwtd2lkdGgtcmVzcG9uc2l2ZT0idHJ1ZSI+PC9pbnM+CjxzY3JpcHQ+CihhZHNieWdvb2dsZSA9IHdpbmRvdy5hZHNieWdvb2dsZSB8fCBbXSkucHVzaCh7fSk7Cjwvc2NyaXB0Pg=="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+<br/><br/>
+</div>
+
+<div class="right1024" style="float:left;margin-left:10px;margin-top:120px;">
+<!-- right1024only -->
+<ins class="adPushupAds" data-adpControl="6d5qg" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+<br/><br/>
+<ins class="adPushupAds" data-adpControl="6d5qg" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+</div>
+<br/>
+
+</div>
+</div>
+</div>
+<script src="./js/shcoreandbrush.js">
+</script>
+<script>dp.SyntaxHighlighter.HighlightAll('code'); 
+</script>
+<script src=".js/lazysizes.min.js">-->
+<script src="./js/lazysizes.min.js" async></script>
+</body> 
+</html> 

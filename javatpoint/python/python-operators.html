@@ -1,0 +1,605 @@
+
+ <!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Python Operators - ITM e-Learning</title><link rel="SHORTCUT ICON" href="./images/favicon2.png"/>
+<link rel="stylesheet" type="text/css" href="./css/link.css"/><link rel="dns-prefetch" href="https://clients1.google.com"><link rel="dns-prefetch" href="https://static.javatpoint.com"><link rel="dns-prefetch" href="https://googleads.g.doubleclick.net"><link rel="dns-prefetch" href="https://www.google.com"><link rel="dns-prefetch" href="https://feedify.net"><meta name="theme-color" content="#4CAF50"/><meta property="og:title" content="Learn Python Tutorial - javatpoint" /><meta property="og:description" content="Learn Python Tutorial for beginners and professional with various python topics such as loops, strings, lists, dictionary, tuples, date, time, files, functions, modules, methods, exceptions etc." />
+<meta name="keywords" content="python, tutorial, examples, programs, language, beginners, introduction, strings, lists, dictionary, tuples, date, time"/><meta name="description" content="Learn Python Tutorial for beginners and professional with various python topics such as loops, strings, lists, dictionary, tuples, date, time, files, functions, modules, methods, exceptions etc."/><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="canonical" href="python-tutorial.html" />
+
+
+<link href="./css/manifest.json" rel="manifest">
+<script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/37784/adRecover.js?ts=1543562646174'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
+<script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//cdn.adpushup.com/37780/adpushup.js'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
+</head> 
+<body onload="highlightlink()"> 
+ 
+
+            <div style="float:left;width:60%;">
+<script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+                
+            </div>
+            
+        </td>
+    </tr>
+        
+</table> </div>
+
+<div style="margin:0px;padding:0px;clear:both">
+<script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+
+</div>
+</div>
+
+<div class="mobilemenu" style="clear:both"> 
+<!-- Cm_300x250_Mob_14/9 -->
+<ins class="adPushupAds" data-adpControl="hqdgs" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDbV8zMDB4MjUwX01vYl8xNC85IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MzAwcHg7aGVpZ2h0OjI1MHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjcwMTQyNzI1MTkiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+</div>
+
+<div id="menu">
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Python Tutorial</span></h2>
+</div>
+
+<div class="leftmenu">
+<a href="python.html">Python Tutorial</a>
+<a href="python-features.html" >Python Features</a>
+<a href="python-history.html" >Python History</a>
+<a href="python-applications.html" >Python Applications</a>
+<a href="how-to-install-python.html" >Python Install</a>
+<a href="python-example.html" >Python Example</a>
+<a href="python-variables.html" >Python Variables</a>
+<a href="python-data-types.html" >Python Data Types</a>
+<a href="python-keywords.html" >Python Keywords</a>
+<a href="python-literals.html" >Python Literals</a>
+<a href="python-operators.html" >Python Operators</a>
+<a href="python-comments.html" >Python Comments</a>
+<a href="python-if-else.html" >Python If else</a>
+<a href="python-loops.html" >Python Loops</a>
+<a href="python-for-loop.html" >Python For Loop</a>
+<a href="python-while-loop.html" >Python While Loop</a>
+<a href="python-break.html" >Python Break</a>
+<a href="python-continue.html" >Python Continue</a>
+<a href="python-pass.html" >Python Pass</a>
+<a href="python-strings.html"><span>Python Strings</span></a>
+<a href="python-lists.html"><span>Python Lists</span></a>
+<a href="python-tuples.html"><span>Python Tuples</span></a>
+<a href="python-set.html"><span>Python Sets</span></a>
+<a href="python-dictionary.html"><span>Python Dictionary</span></a>
+<a href="python-functions.html"><span>Python Functions</span></a> 
+<a href="python-built-in-functions.html"><span>Python Built-in Functions</span></a>
+<a href="python-lambda-functions.html"><span>Python Lambda Functions</span></a>
+<a href="python-files-io.html"><span>Python Files I/O</span></a>
+<a href="python-modules.html"><span>Python Modules</span></a>
+<a href="python-exception-handling.html
+"><span>Python Exceptions</span></a>
+<a href="python-date.html"><span>Python Date</span></a>
+<a href="python-regex.html">Python Regex</a>
+<a href="python-sending-email.html">Python Sending Email</a>
+
+<a href="python-read-csv-file.html">Read CSV File</a>
+<a href="python-write-csv-file.html">Write CSV File</a>
+<a href="python-read-excel-file.html">Read Excel File</a>
+<a href="python-write-excel-file.html">Write Excel File</a>
+<a href="python-assert-keyword.html">Python Assert</a>
+
+<a href="python-list-comprehension.html">Python List Comprehension</a>
+<a href="python-collection-module.html">Python Collection Module</a>
+<a href="python-math-module.html">Python Math Module</a>
+<a href="python-os-module.html">Python OS Module</a>
+<a href="python-random-module.html">Python Random Module</a>
+<a href="python-statistics-module.html">Python Statistics Module</a>
+<a href="python-sys-module.html">Python Sys Module</a>
+
+<a href="python-ides.html">Python IDEs</a>
+
+<a href="python-arrays.html">Python Arrays</a>
+<a href="python-command-line-arguments.html">Command Line Arguments</a>
+<a href="python-magic-method.html">Python Magic Method</a>
+<a href="python-stack-and-queue.html">Python Stack &amp; Queue</a>
+
+<a href="pyspark-mllib.html">PySpark MLlib</a>
+<a href="python-decorator.html">Python Decorator</a>
+<a href="python-generators.html">Python Generators</a>
+<a href="web-scraping-using-python.html">Web Scraping Using Python</a>
+<a href="python-json.html">Python JSON</a>
+<a href="python-itertools.html">Python Itertools</a>
+</div>
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Python OOPs</span></h2>
+</div>
+
+<div class="leftmenu"  >
+<a href="python-oops-concepts.html" >Python OOPs Concepts</a>
+<a href="python-objects-classes.html" >Python Object Class</a>
+<a href="python-constructors.html" >Python Constructors</a>
+<a href="inheritance-in-python.html" >Python Inheritance</a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python MySQL</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-mysql-environment-setup.html">Environment Setup</a>
+<a href="python-mysql-database-connection.html">Database Connection</a>
+<a href="python-mysql-creating-new-database.html">Creating New Database</a>
+<a href="python-mysql-creating-tables.html">Creating Tables</a>
+<a href="python-mysql-insert-operation.html">Insert Operation</a>
+<a href="python-mysql-read-operation.html">Read Operation</a>
+<a href="python-mysql-update-operation.html">Update Operation</a>
+<a href="python-mysql-join-operation.html">Join Operation</a>
+<a href="python-mysql-performing-transactions.html">Performing Transactions</a>
+</div>
+
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python MongoDB</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-mongodb.html">Python MongoDB</a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python SQLite</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-sqlite.html">Python SQLite</a>
+</div>
+
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python Tkinter (GUI)</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-tkinter.html">Python Tkinter</a>
+<a href="python-tkinter-button.html">Tkinter Button</a>
+<a href="python-tkinter-canvas.html">Tkinter Canvas</a>
+<a href="python-tkinter-checkbutton.html">Tkinter Checkbutton</a>
+<a href="python-tkinter-entry.html">Tkinter Entry</a>
+<a href="python-tkinter-frame.html">Tkinter Frame</a>
+<a href="python-tkinter-label.html">Tkinter Label</a>
+
+<a href="python-tkinter-listbox.html">Tkinter Listbox</a>
+<a href="python-tkinter-menubutton.html">Tkinter Menubutton</a>
+
+<a href="python-tkinter-menu.html">Tkinter Menu</a>
+<a href="python-tkinter-message.html">Tkinter Message</a>
+<a href="python-tkinter-radiobutton.html">Tkinter Radiobutton</a>
+
+<a href="python-tkinter-scale.html">Tkinter Scale</a>
+<a href="python-tkinter-scrollbar.html">Tkinter Scrollbar</a>
+<a href="python-tkinter-text.html">Tkinter Text</a>
+<a href="python-tkinter-toplevel.html">Tkinter Toplevel</a>
+<a href="python-tkinter-spinbox.html">Tkinter Spinbox</a>
+
+<a href="python-tkinter-panedwindow.html">Tkinter PanedWindow</a>
+<a href="python-tkinter-labelframe.html">Tkinter LabelFrame</a>
+<a href="python-tkinter-messagebox.html">Tkinter MessageBox</a>
+
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python Web Blocker</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-website-blocker.html">Introduction</a>
+<a href="python-website-blocker-building-python-script.html">Building Python Script</a>
+<a href="python-website-blocker-script-deployment-on-linux.html">Script Deployment on Linux</a>
+<a href="python-website-blocker-script-deployment-on-windows.html">Script Deployment on Windows</a>
+</div>
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Related Tutorials</span></h2>
+</div>
+
+<div class="leftmenu"  >
+<a href="numpy-tutorial.html"><span>NumPy Tutorial</span></a>
+<a href="django-tutorial.html"><span>Django Tutorial</span></a>
+<a href="flask-tutorial.html"><span>Flask Tutorial</span></a>
+
+<a href="python-pandas.html"><span>Pandas Tutorial</span></a>
+<a href="pytorch.html"><span>Pytorch Tutorial</span></a>
+<a href="pygame.html"><span>Pygame Tutorial</span></a>
+<a href="matplotlib.html"><span>Matplotlib Tutorial</span></a>
+<a href="opencv.html"><span>OpenCV Tutorial</span></a>
+<a href="python-openpyxl.html"><span>Openpyxl Tutorial</span></a>
+
+</div>
+
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Python Programs</span></h2>
+</div>
+
+<div class="leftmenu"  >
+<a href="python-programs.html"><span>Python Programs</span></a>
+</div>
+
+
+<div id="leftad" style="margin-left:20px">
+<!-- javatpointleft -->
+<ins class="adPushupAds" data-adpControl="g8drp" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBqYXZhdHBvaW50bGVmdCAtLT4KPGlucyBjbGFzcz0iYWRzYnlnb29nbGUiCiAgICAgc3R5bGU9ImRpc3BsYXk6aW5saW5lLWJsb2NrO3dpZHRoOjE2MHB4O2hlaWdodDo2MDBweCIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI0NDc2NDAxMjIyIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+</div>
+</div>
+<div class="onlycontent">
+<div class="onlycontentad">
+<!-- CM_JTP_Leaderbaord -->
+<ins class="adPushupAds" data-adpControl="nuoc1" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDTV9KVFBfTGVhZGVyYmFvcmQgLS0+CjxpbnMgY2xhc3M9ImFkc2J5Z29vZ2xlIgogICAgIHN0eWxlPSJkaXNwbGF5OmJsb2NrIgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjkyMDE5MDE5MTUiCiAgICAgZGF0YS1hZC1mb3JtYXQ9ImF1dG8iCiAgICAgZGF0YS1mdWxsLXdpZHRoLXJlc3BvbnNpdmU9InRydWUiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+</div>
+<div class="onlycontentinner">
+<div id="city">
+<table>
+<tr><td>
+<div id="bottomnextup">
+<a class="next" href="python-comments.html">next &rarr;</a>
+<a class="next" href="python-literals.html">&larr; prev</a>
+</div>
+
+<h1 class="h1">Python Operators </h1>
+<p>The operator can be defined as a symbol which is responsible for a particular operation between two operands. Operators are the pillars of a program on which the logic is built in a particular programming language. Python provides a variety of operators described as follows. </p>
+<ul class="points">
+<li>Arithmetic operators </li>
+<li>Comparison operators</li>
+<li>Assignment Operators</li>
+<li>Logical Operators</li>
+<li>Bitwise Operators</li>
+<li>Membership Operators </li>
+<li>Identity Operators </li>
+</ul>
+<hr/>
+
+<h2 class="h2">Arithmetic operators </h2>
+<p>Arithmetic operators are used to perform arithmetic operations between two operands. It includes +(addition), - (subtraction), *(multiplication), /(divide), %(reminder), //(floor division), and exponent (**). </p>
+<p>Consider the following table for a detailed explanation of arithmetic operators. </p>
+<table class="alt">
+<tr>
+	<th>Operator</th>
+	<th>Description</th>
+</tr>
+<tr>
+	<td><strong>+ (Addition)</strong></td>
+	<td>It is used to add two operands. For example, if a = 20, b = 10 => a+b = 30  </td>
+</tr>
+<tr>
+	<td><strong>- (Subtraction)</strong></td>
+	<td>It is used to subtract the second operand from the first operand. If the first operand is less than the second operand, the value result negative. For example, if a = 20, b = 10 =>  a - b = 10</td>
+</tr>
+<tr>
+	<td><strong>/ (divide) </strong></td>
+	<td>It returns the quotient after dividing the first operand by the second operand. For example, if a = 20, b = 10 => a/b = 2 </td>
+</tr>
+<tr>
+	<td><strong>* (Multiplication)</strong></td>
+	<td>It is used to multiply one operand with the other. For example, if a = 20, b = 10 => a * b = 200</td>
+</tr>
+<tr>
+	<td><strong>% (reminder)</strong></td>
+	<td>It returns the reminder after dividing the first operand by the second operand. For example, if a = 20, b = 10 => a%b = 0 </td>
+</tr>
+<tr>
+	<td><strong>** (Exponent)</strong></td>
+	<td>It is an exponent operator represented as it calculates the first operand power to second operand.</td>
+</tr>
+<tr>
+	<td><strong>// (Floor division)</strong></td>
+	<td>It gives the floor value of the quotient produced by dividing the two operands.  </td>
+</tr>
+</table>
+<hr/>
+<h2 class="h2">Comparison operator </h2>
+<p>Comparison operators are used to comparing the value of the two operands and returns boolean true or false accordingly. The comparison operators are described in the following table. </p>
+<table class="alt">
+<tr>
+	<th>Operator</th>
+	<th>Description</th>
+</tr>
+<tr>
+	<td>==</td>
+	<td>If the value of two operands is equal, then the condition becomes true. </td>
+</tr>
+<tr>
+	<td>!=</td>
+	<td>If the value of two operands is not equal then the condition becomes true. </td>
+</tr>
+<tr>
+	<td><=</td>
+	<td>If the first operand is less than or equal to the second operand, then the condition becomes true. </td>
+</tr>
+<tr>
+	<td>>=</td>
+	<td>If the first operand is greater than or equal to the second operand, then the condition becomes true. </td>
+</tr>
+<tr>
+	<td>></td>
+	<td>If the first operand is greater than the second operand, then the condition becomes true. </td>
+</tr>
+<tr>
+	<td><strong><</strong></td>
+	<td>If the first operand is less than the second operand, then the condition becomes true.</td>
+</tr>
+</table>
+<hr/>
+<h2 class="h2">Python assignment operators </h2>
+<p>The assignment operators are used to assign the value of the right expression to the left operand. The assignment operators are described in the following table. </p>
+<table class="alt">
+<tr>
+	<th>Operator</th>
+	<th>Description</th>
+</tr>
+<tr>
+	<td>= </td>
+	<td>It assigns the the value of the right expression to the left operand.   </td>
+</tr>
+<tr>
+	<td>+= </td>
+	<td>It increases the value of the left operand by the value of the right operand and assign the modified value back to left operand. For example, if a = 10, b = 20 => a+ = b will be equal to a = a+ b and therefore, a = 30.  </td>
+</tr>
+<tr>
+	<td>-=</td>
+	<td>It decreases the value of the left operand by the value of the right operand and assign the modified value back to left operand. For example, if a = 20, b = 10 => a- = b will be equal to a = a- b and therefore, a = 10.  </td>
+</tr>
+<tr>
+	<td>*=</td>
+	<td>It multiplies the value of the left operand by the value of the right operand and assign the modified value back to left operand. For example, if a = 10, b = 20 => a* = b will be equal to a = a* b and therefore, a = 200.  </td>
+</tr>
+<tr>
+	<td>%=</td>
+	<td>It divides the value of the left operand by the value of the right operand and assign the reminder back to left operand. For example, if a = 20, b = 10 => a % = b will be equal to a = a % b and therefore, a = 0.  </td>
+</tr>
+<tr>
+	<td>**=</td>
+	<td>a**=b will be equal to a=a**b, for example, if a = 4, b =2, a**=b will assign 4**2 = 16 to a.  </td>
+</tr>
+<tr>
+	<td>//=</td>
+	<td>A//=b will be equal to a = a// b, for example, if a = 4, b = 3, a//=b will assign 4//3 = 1 to a. </td>
+</tr>
+</table>
+<hr/>
+
+<h2 class="h2">Bitwise operator </h2>
+<p>The bitwise operators perform bit by bit operation on the values of the two operands.</p> 
+<p><strong>For example,</strong> </p>
+<div class="codeblock"><textarea name="code" class="python">
+if a = 7;
+   b = 6; 
+then, binary (a) = 0111
+	binary (b) = 0011
+
+hence, a & b = 0011
+	  a | b = 0111
+             a ^ b = 0100
+	   ~ a = 1000 
+</textarea></div>
+<br>
+<table class="alt">
+<tr>
+	<th>Operator</th>
+	<th>Description</th>
+</tr>
+<tr>
+	<td>& (binary and)</td>
+	<td>If both the bits at the same place in two operands are 1, then 1 is copied to the result. Otherwise, 0 is copied.  </td>
+</tr>
+<tr>
+	<td>| (binary or)</td>
+	<td>The resulting bit will be 0 if both the bits are zero otherwise the resulting bit will be 1. </td>
+</tr>
+<tr>
+	<td>^ (binary xor)</td>
+	<td>The resulting bit will be 1 if both the bits are different otherwise the resulting bit will be 0. </td>
+</tr>
+<tr>
+	<td>~ (negation) </td>
+	<td>It calculates the negation of each bit of the operand, i.e., if the bit is 0, the resulting bit will be 1 and vice versa. </td>
+</tr>
+<tr>
+	<td><< (left shift)</td>
+	<td>The left operand value is moved left by the number of bits present in the right operand. </td>
+</tr>
+<tr>
+	<td>>> (right shift)</td>
+	<td>The left operand is moved right by the number of bits present in the right operand.</td>
+</tr>
+</table>
+<hr/>
+
+<h2 class="h2">Logical Operators </h2>
+<p>The logical operators are used primarily in the expression evaluation to make a decision. Python supports the following logical operators. </p>
+<table class="alt">
+<tr>
+	<th>Operator</th>
+	<th>Description</th>
+</tr>
+<tr>
+	<td>and</td>
+	<td>If both the expression are true, then the condition will be true. If a and b are the two expressions, a &rarr; true, b &rarr; true => a and b &rarr; true.</td>
+</tr>
+<tr>
+	<td>or</td>
+	<td>If one of the expressions is true, then the condition will be true. If   a and b are the two expressions, a &rarr; true, b &rarr; false => a or b &rarr; true.</td>
+</tr>
+<tr>
+	<td>not</td>
+	<td>If an expression <strong>a</strong> is true then not (a) will be false and vice versa.</td>
+</tr>
+</table>
+<hr/>
+
+<h2 class="h2">Membership Operators </h2>
+<p>Python membership operators are used to check the membership of value inside a Python data structure. If the value is present in the data structure, then the resulting value is true otherwise it returns false.</p>
+<table class="alt">
+<tr>
+	<th>Operator</th>
+	<th>Description</th>
+</tr>
+<tr>
+	<td>in</td>
+	<td>It is evaluated to be true if the first operand is found in the second operand (list, tuple, or dictionary). </td>
+</tr>
+<tr>
+	<td>not in</td>
+	<td>It is evaluated to be true if the first operand is not found in the second operand (list, tuple, or dictionary).</td>
+</tr>
+</table>
+<hr/>
+
+<h2 class="h2">Identity Operators </h2>
+<table class="alt">
+<tr>
+	<th>Operator</th>
+	<th>Description</th>
+</tr>
+<tr>
+	<td>is</td>
+	<td>It is evaluated to be true if the reference present at both sides point to the same object. </td>
+</tr>
+<tr>
+	<td>is not</td>
+	<td>It is evaluated to be true if the reference present at both side do not point to the same object. </td>
+</tr>
+</table>
+<hr/>
+
+<h2 class="h2">Operator Precedence </h2>
+<p>The precedence of the operators is important to find out since it enables us to know which operator should be evaluated first. The precedence table of the operators in python is given below. </p>
+<table class="alt">
+<tr>
+	<th>Operator</th>
+	<th>Description</th>
+</tr>
+<tr>
+	<td>**</td>
+	<td>The exponent operator is given priority over all the others used in the  expression. </td>
+</tr>
+<tr>
+	<td>~ + -</td>
+	<td>The negation, unary plus and minus. </td>
+</tr>
+<tr>
+	<td>* / % //</td>
+	<td>The multiplication, divide, modules, reminder, and floor division.</td>
+</tr>
+<tr>
+	<td>+ -</td>
+	<td>Binary plus and minus</td>
+</tr>
+<tr>
+	<td>>> <<</td>
+	<td>Left shift and right shift</td>
+</tr>
+<tr>
+	<td>&</td>
+	<td>Binary and. </td>
+</tr>
+<tr>
+	<td>^ |</td>
+	<td>Binary xor and or</td>
+</tr>
+<tr>
+	<td><= < > >=</td>
+	<td>Comparison operators (less then, less then equal to, greater then, greater then equal to). </td>
+</tr>
+<tr>
+	<td><> == !=</td>
+	<td>Equality operators. </td>
+</tr>
+<tr>
+	<td>= %= /= //= -= +=<br>
+*= **=</td>
+	<td>Assignment operators</td>
+</tr>
+<tr>
+	<td>is is not</td>
+	<td>Identity operators</td>
+</tr>
+<tr>
+	<td>in not in</td>
+	<td>Membership operators</td>
+</tr>
+<tr>
+	<td>not or and</td>
+	<td>Logical operators</td>
+</tr>
+</table>
+
+<hr/>
+<div class="nexttopicdiv">
+<span class="nexttopictext">Next Topic</span><span class="nexttopiclink"><a href="python-comments.html">Python Comments</a></span>
+</div>
+<!-- link -->
+<br/><br/>
+<div id="bottomnext">
+<a style="float:left" class="next" href="python-literals.html">&larr; prev</a>
+<a style="float:right" class="next" href="python-comments.html">next &rarr;</a>
+</div>
+
+<br/><br/>
+
+</td></tr>
+</table>
+</div>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- AP_37780_300x250(0) -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4699858549023382"
+     data-ad-slot="5022809933"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+ 
+</div>
+
+
+<br><br/><div class="mobilemenu" style="clear:both">
+<ins class="adPushupAds" data-adpControl="jrfe7" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByZXNwb25zaXZlbW9iaWxlZm9vdGVyIC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTpibG9jayIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI4MjIyODY2MzE4IgogICAgIGRhdGEtYWQtZm9ybWF0PSJhdXRvIgogICAgIGRhdGEtZnVsbC13aWR0aC1yZXNwb25zaXZlPSJ0cnVlIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+</div></div>
+
+<div id="right">
+
+<ins class="adPushupAds" data-adpControl="am3c1" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBuZXdyaWdodCAtLT4KPGlucyBjbGFzcz0iYWRzYnlnb29nbGUiCiAgICAgc3R5bGU9ImRpc3BsYXk6YmxvY2siCiAgICAgZGF0YS1hZC1jbGllbnQ9ImNhLXB1Yi00Njk5ODU4NTQ5MDIzMzgyIgogICAgIGRhdGEtYWQtc2xvdD0iNjAzNDkxMjU0MSIKICAgICBkYXRhLWFkLWZvcm1hdD0iYXV0byIKICAgICBkYXRhLWZ1bGwtd2lkdGgtcmVzcG9uc2l2ZT0idHJ1ZSI+PC9pbnM+CjxzY3JpcHQ+CihhZHNieWdvb2dsZSA9IHdpbmRvdy5hZHNieWdvb2dsZSB8fCBbXSkucHVzaCh7fSk7Cjwvc2NyaXB0Pg=="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+<br/><br/>
+
+<ins class="adPushupAds" data-adpControl="am3c1" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBuZXdyaWdodCAtLT4KPGlucyBjbGFzcz0iYWRzYnlnb29nbGUiCiAgICAgc3R5bGU9ImRpc3BsYXk6YmxvY2siCiAgICAgZGF0YS1hZC1jbGllbnQ9ImNhLXB1Yi00Njk5ODU4NTQ5MDIzMzgyIgogICAgIGRhdGEtYWQtc2xvdD0iNjAzNDkxMjU0MSIKICAgICBkYXRhLWFkLWZvcm1hdD0iYXV0byIKICAgICBkYXRhLWZ1bGwtd2lkdGgtcmVzcG9uc2l2ZT0idHJ1ZSI+PC9pbnM+CjxzY3JpcHQ+CihhZHNieWdvb2dsZSA9IHdpbmRvdy5hZHNieWdvb2dsZSB8fCBbXSkucHVzaCh7fSk7Cjwvc2NyaXB0Pg=="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+<br/><br/>
+</div>
+
+<div class="right1024" style="float:left;margin-left:10px;margin-top:120px;">
+<!-- right1024only -->
+<ins class="adPushupAds" data-adpControl="6d5qg" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+<br/><br/>
+<ins class="adPushupAds" data-adpControl="6d5qg" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+</div>
+<br/>
+
+</div>
+</div>
+</div>
+<script src="./js/shcoreandbrush.js">
+</script>
+<script>dp.SyntaxHighlighter.HighlightAll('code'); 
+</script>
+<script src=".js/lazysizes.min.js">-->
+<script src="./js/lazysizes.min.js" async></script>
+</body> 
+</html> 

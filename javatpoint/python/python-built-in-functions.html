@@ -1,0 +1,1512 @@
+
+ <!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Python Built-in Functions -ITM e-Learning</title><link rel="SHORTCUT ICON" href="./images/favicon2.png"/>
+<link rel="stylesheet" type="text/css" href="./css/link.css"/><link rel="dns-prefetch" href="https://clients1.google.com"><link rel="dns-prefetch" href="https://static.javatpoint.com"><link rel="dns-prefetch" href="https://googleads.g.doubleclick.net"><link rel="dns-prefetch" href="https://www.google.com"><link rel="dns-prefetch" href="https://feedify.net"><meta name="theme-color" content="#4CAF50"/><meta property="og:title" content="Learn Python Tutorial - javatpoint" /><meta property="og:description" content="Learn Python Tutorial for beginners and professional with various python topics such as loops, strings, lists, dictionary, tuples, date, time, files, functions, modules, methods, exceptions etc." />
+<meta name="keywords" content="python, tutorial, examples, programs, language, beginners, introduction, strings, lists, dictionary, tuples, date, time"/><meta name="description" content="Learn Python Tutorial for beginners and professional with various python topics such as loops, strings, lists, dictionary, tuples, date, time, files, functions, modules, methods, exceptions etc."/><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="canonical" href="python-tutorial.html" />
+
+
+<link href="./css/manifest.json" rel="manifest">
+<script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//delivery.adrecover.com/37784/adRecover.js?ts=1543562646174'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
+<script data-cfasync="false" type="text/javascript">(function(w, d) { var s = d.createElement('script'); s.src = '//cdn.adpushup.com/37780/adpushup.js'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
+</head> 
+<body onload="highlightlink()"> 
+ 
+
+            <div style="float:left;width:60%;">
+<script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+                
+            </div>
+            
+        </td>
+    </tr>
+        
+</table> </div>
+
+<div style="margin:0px;padding:0px;clear:both">
+<script>
+  (function() {
+    var cx = '005383125436438536544:y1edweedxwi';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+
+</div>
+</div>
+
+<div class="mobilemenu" style="clear:both"> 
+<!-- Cm_300x250_Mob_14/9 -->
+<ins class="adPushupAds" data-adpControl="hqdgs" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDbV8zMDB4MjUwX01vYl8xNC85IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MzAwcHg7aGVpZ2h0OjI1MHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjcwMTQyNzI1MTkiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+</div>
+
+<div id="menu">
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Python Tutorial</span></h2>
+</div>
+
+<div class="leftmenu">
+<a href="python.html">Python Tutorial</a>
+<a href="python-features.html" >Python Features</a>
+<a href="python-history.html" >Python History</a>
+<a href="python-applications.html" >Python Applications</a>
+<a href="how-to-install-python.html" >Python Install</a>
+<a href="python-example.html" >Python Example</a>
+<a href="python-variables.html" >Python Variables</a>
+<a href="python-data-types.html" >Python Data Types</a>
+<a href="python-keywords.html" >Python Keywords</a>
+<a href="python-literals.html" >Python Literals</a>
+<a href="python-operators.html" >Python Operators</a>
+<a href="python-comments.html" >Python Comments</a>
+<a href="python-if-else.html" >Python If else</a>
+<a href="python-loops.html" >Python Loops</a>
+<a href="python-for-loop.html" >Python For Loop</a>
+<a href="python-while-loop.html" >Python While Loop</a>
+<a href="python-break.html" >Python Break</a>
+<a href="python-continue.html" >Python Continue</a>
+<a href="python-pass.html" >Python Pass</a>
+<a href="python-strings.html"><span>Python Strings</span></a>
+<a href="python-lists.html"><span>Python Lists</span></a>
+<a href="python-tuples.html"><span>Python Tuples</span></a>
+<a href="python-set.html"><span>Python Sets</span></a>
+<a href="python-dictionary.html"><span>Python Dictionary</span></a>
+<a href="python-functions.html"><span>Python Functions</span></a> 
+<a href="python-built-in-functions.html"><span>Python Built-in Functions</span></a>
+<a href="python-lambda-functions.html"><span>Python Lambda Functions</span></a>
+<a href="python-files-io.html"><span>Python Files I/O</span></a>
+<a href="python-modules.html"><span>Python Modules</span></a>
+<a href="python-exception-handling.html
+"><span>Python Exceptions</span></a>
+<a href="python-date.html"><span>Python Date</span></a>
+<a href="python-regex.html">Python Regex</a>
+<a href="python-sending-email.html">Python Sending Email</a>
+
+<a href="python-read-csv-file.html">Read CSV File</a>
+<a href="python-write-csv-file.html">Write CSV File</a>
+<a href="python-read-excel-file.html">Read Excel File</a>
+<a href="python-write-excel-file.html">Write Excel File</a>
+<a href="python-assert-keyword.html">Python Assert</a>
+
+<a href="python-list-comprehension.html">Python List Comprehension</a>
+<a href="python-collection-module.html">Python Collection Module</a>
+<a href="python-math-module.html">Python Math Module</a>
+<a href="python-os-module.html">Python OS Module</a>
+<a href="python-random-module.html">Python Random Module</a>
+<a href="python-statistics-module.html">Python Statistics Module</a>
+<a href="python-sys-module.html">Python Sys Module</a>
+
+<a href="python-ides.html">Python IDEs</a>
+
+<a href="python-arrays.html">Python Arrays</a>
+<a href="python-command-line-arguments.html">Command Line Arguments</a>
+<a href="python-magic-method.html">Python Magic Method</a>
+<a href="python-stack-and-queue.html">Python Stack &amp; Queue</a>
+
+<a href="pyspark-mllib.html">PySpark MLlib</a>
+<a href="python-decorator.html">Python Decorator</a>
+<a href="python-generators.html">Python Generators</a>
+<a href="web-scraping-using-python.html">Web Scraping Using Python</a>
+<a href="python-json.html">Python JSON</a>
+<a href="python-itertools.html">Python Itertools</a>
+</div>
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Python OOPs</span></h2>
+</div>
+
+<div class="leftmenu"  >
+<a href="python-oops-concepts.html" >Python OOPs Concepts</a>
+<a href="python-objects-classes.html" >Python Object Class</a>
+<a href="python-constructors.html" >Python Constructors</a>
+<a href="inheritance-in-python.html" >Python Inheritance</a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python MySQL</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-mysql-environment-setup.html">Environment Setup</a>
+<a href="python-mysql-database-connection.html">Database Connection</a>
+<a href="python-mysql-creating-new-database.html">Creating New Database</a>
+<a href="python-mysql-creating-tables.html">Creating Tables</a>
+<a href="python-mysql-insert-operation.html">Insert Operation</a>
+<a href="python-mysql-read-operation.html">Read Operation</a>
+<a href="python-mysql-update-operation.html">Update Operation</a>
+<a href="python-mysql-join-operation.html">Join Operation</a>
+<a href="python-mysql-performing-transactions.html">Performing Transactions</a>
+</div>
+
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python MongoDB</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-mongodb.html">Python MongoDB</a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python SQLite</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-sqlite.html">Python SQLite</a>
+</div>
+
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python Tkinter (GUI)</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-tkinter.html">Python Tkinter</a>
+<a href="python-tkinter-button.html">Tkinter Button</a>
+<a href="python-tkinter-canvas.html">Tkinter Canvas</a>
+<a href="python-tkinter-checkbutton.html">Tkinter Checkbutton</a>
+<a href="python-tkinter-entry.html">Tkinter Entry</a>
+<a href="python-tkinter-frame.html">Tkinter Frame</a>
+<a href="python-tkinter-label.html">Tkinter Label</a>
+
+<a href="python-tkinter-listbox.html">Tkinter Listbox</a>
+<a href="python-tkinter-menubutton.html">Tkinter Menubutton</a>
+
+<a href="python-tkinter-menu.html">Tkinter Menu</a>
+<a href="python-tkinter-message.html">Tkinter Message</a>
+<a href="python-tkinter-radiobutton.html">Tkinter Radiobutton</a>
+
+<a href="python-tkinter-scale.html">Tkinter Scale</a>
+<a href="python-tkinter-scrollbar.html">Tkinter Scrollbar</a>
+<a href="python-tkinter-text.html">Tkinter Text</a>
+<a href="python-tkinter-toplevel.html">Tkinter Toplevel</a>
+<a href="python-tkinter-spinbox.html">Tkinter Spinbox</a>
+
+<a href="python-tkinter-panedwindow.html">Tkinter PanedWindow</a>
+<a href="python-tkinter-labelframe.html">Tkinter LabelFrame</a>
+<a href="python-tkinter-messagebox.html">Tkinter MessageBox</a>
+
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Python Web Blocker</span></h2>
+</div>
+<div class="leftmenu">
+<a href="python-website-blocker.html">Introduction</a>
+<a href="python-website-blocker-building-python-script.html">Building Python Script</a>
+<a href="python-website-blocker-script-deployment-on-linux.html">Script Deployment on Linux</a>
+<a href="python-website-blocker-script-deployment-on-windows.html">Script Deployment on Windows</a>
+</div>
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Related Tutorials</span></h2>
+</div>
+
+<div class="leftmenu"  >
+<a href="numpy-tutorial.html"><span>NumPy Tutorial</span></a>
+<a href="django-tutorial.html"><span>Django Tutorial</span></a>
+<a href="flask-tutorial.html"><span>Flask Tutorial</span></a>
+
+<a href="python-pandas.html"><span>Pandas Tutorial</span></a>
+<a href="pytorch.html"><span>Pytorch Tutorial</span></a>
+<a href="pygame.html"><span>Pygame Tutorial</span></a>
+<a href="matplotlib.html"><span>Matplotlib Tutorial</span></a>
+<a href="opencv.html"><span>OpenCV Tutorial</span></a>
+<a href="python-openpyxl.html"><span>Openpyxl Tutorial</span></a>
+
+</div>
+
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Python Programs</span></h2>
+</div>
+
+<div class="leftmenu"  >
+<a href="python-programs.html"><span>Python Programs</span></a>
+</div>
+
+
+<div id="leftad" style="margin-left:20px">
+<!-- javatpointleft -->
+<ins class="adPushupAds" data-adpControl="g8drp" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBqYXZhdHBvaW50bGVmdCAtLT4KPGlucyBjbGFzcz0iYWRzYnlnb29nbGUiCiAgICAgc3R5bGU9ImRpc3BsYXk6aW5saW5lLWJsb2NrO3dpZHRoOjE2MHB4O2hlaWdodDo2MDBweCIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI0NDc2NDAxMjIyIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+</div>
+</div>
+<div class="onlycontent">
+<div class="onlycontentad">
+<!-- CM_JTP_Leaderbaord -->
+<ins class="adPushupAds" data-adpControl="nuoc1" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBDTV9KVFBfTGVhZGVyYmFvcmQgLS0+CjxpbnMgY2xhc3M9ImFkc2J5Z29vZ2xlIgogICAgIHN0eWxlPSJkaXNwbGF5OmJsb2NrIgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjkyMDE5MDE5MTUiCiAgICAgZGF0YS1hZC1mb3JtYXQ9ImF1dG8iCiAgICAgZGF0YS1mdWxsLXdpZHRoLXJlc3BvbnNpdmU9InRydWUiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+</div>
+<div class="onlycontentinner">
+<div id="city">
+<table>
+<tr><td>
+
+<div id="bottomnextup">
+<a class="next" href="python-lambda-functions.html">next &rarr;</a>
+<a class="next" href="python-functions.html">&larr; prev</a>
+</div>
+
+<h1 class="h1">Python Built-in Functions</h1>
+<p>The Python built-in functions are defined as the functions whose functionality is pre-defined in Python. The python interpreter has several functions that are always present for use. These functions are known as Built-in Functions. There are several built-in functions in Python which are listed below:</p>
+<h2 class="h2">Python abs() Function</h2>
+<p>The python <strong>abs()</strong> function is used to return the absolute value of a number. It takes only one argument, a number whose absolute value is to be returned. The argument can be an integer and floating-point number. If the argument is a complex number, then, abs() returns its magnitude.</p>
+<p><strong>Python abs() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+#  integer number	
+integer = -20
+print('Absolute value of -40 is:', abs(integer))
+
+#  floating number
+floating = -20.83
+print('Absolute value of -40.83 is:', abs(floating))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+Absolute value of -20 is: 20
+Absolute value of -20.83 is: 20.83
+</pre></div>
+<hr/>
+<h2 class="h2">Python all() Function</h2>
+<p>The python <strong>all()</strong> function accepts an iterable object (such as list, dictionary, etc.). It returns true if all items in passed iterable are true. Otherwise, it returns False. If the iterable object is empty, the all() function returns True.</p>
+<p><strong>Python all() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# all values true
+k = [1, 3, 4, 6]
+print(all(k))
+
+# all values false
+k = [0, False]
+print(all(k))
+
+# one false value
+k = [1, 3, 7, 0]
+print(all(k))
+
+# one true value
+k = [0, False, 5]
+print(all(k))
+
+# empty iterable
+k = []
+print(all(k))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+True
+False
+False
+False
+True
+</pre></div>
+<hr/>
+<h2 class="h2">Python bin() Function</h2>
+<p>The python <strong>bin()</strong> function is used to return the binary representation of a specified integer. A result always starts with the prefix 0b.</p>
+<p><strong>Python bin() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+x =  10
+y =  bin(x)
+print (y)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+0b1010
+</pre></div>
+<hr/>
+<h2 class="h2">Python bool() </h2>
+<p>The python <strong>bool()</strong> converts a value to boolean(True or False) using the standard truth testing procedure.</p>
+<p><strong>Python bool() Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+test1 = []
+print(test1,'is',bool(test1))
+test1 = [0]
+print(test1,'is',bool(test1))
+test1 = 0.0
+print(test1,'is',bool(test1))
+test1 = None
+print(test1,'is',bool(test1))
+test1 = True
+print(test1,'is',bool(test1))
+test1 = 'Easy string'
+print(test1,'is',bool(test1))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+[] is False
+[0] is True
+0.0 is False
+None is False
+True is True
+Easy string is True
+</pre></div>
+<hr/>
+<h2 class="h2">Python bytes() </h2>
+<p>The python <strong>bytes()</strong> in Python is used for returning a <strong>bytes</strong> object. It is an immutable version of the bytearray() function.</p>
+<p>It can create empty bytes object of the specified size.</p>
+<p><strong>Python bytes() Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+string = "Hello World."
+array = bytes(string, 'utf-8')
+print(array)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+b ' Hello World.'
+</pre></div>
+<hr/>
+<h2 class="h2">Python callable() Function</h2>
+<p>A python <strong>callable()</strong> function in Python is something that can be called. This built-in function checks and returns true if the object passed appears to be callable, otherwise false.</p>
+<p><strong>Python callable() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+x = 8
+print(callable(x))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+False
+</pre></div>
+<hr/>
+<h2 class="h2">Python compile() Function</h2>
+<p>The python <strong>compile()</strong> function takes source code as input and returns a code object which can later be executed by exec() function.</p>
+<p><strong>Python compile() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# compile string source to code
+code_str = 'x=5\ny=10\nprint("sum =",x+y)'
+code = compile(code_str, 'sum.py', 'exec')
+print(type(code))
+exec(code)
+exec(x)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+&lt;class 'code'&gt;
+sum = 15
+</pre></div>
+<hr/>
+<h2 class="h2">Python exec() Function</h2>
+<p>The python <strong>exec()</strong> function is used for the dynamic execution of Python program which can either be a string or object code and it accepts large blocks of code, unlike the eval() function which only accepts a single expression.</p>
+<p><strong>Python exec() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+x = 8
+exec('print(x==8)')
+exec('print(x+4)')
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+True
+12
+</pre></div>
+<hr/>
+<h2 class="h2">Python sum() Function</h2>
+<p>As the name says, python <strong>sum()</strong> function is used to get the sum of numbers of an iterable, i.e., list.</p>
+<p><strong>Python sum() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+s = sum([1, 2,4 ])
+print(s)
+
+s = sum([1, 2, 4], 10)
+print(s)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+7
+17
+</pre></div>
+<hr/>
+<h2 class="h2">Python any() Function</h2>
+<p>The python <strong>any()</strong> function returns true if any item in an iterable is true. Otherwise, it returns False.</p>
+<p><strong>Python any() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+l = [4, 3, 2, 0]                            
+print(any(l))                                 
+
+l = [0, False]
+print(any(l))
+
+l = [0, False, 5]
+print(any(l))
+
+l = []
+print(any(l))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+True
+False
+True
+False
+</pre></div>
+<hr/>
+<h2 class="h2">Python ascii() Function</h2>
+<p>The python <strong>ascii()</strong> function returns a string containing a printable representation of an object and escapes the non-ASCII characters in the string using \x, \u or \U escapes.</p>
+<p><strong>Python ascii() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+normalText = 'Python is interesting'
+print(ascii(normalText))
+
+otherText = 'Pythön is interesting'
+print(ascii(otherText))
+
+print('Pyth\xf6n is interesting')
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+'Python is interesting'
+'Pyth\xf6n is interesting'
+Pythön is interesting
+</pre></div>
+<hr/>
+<h2 class="h2">Python bytearray() </h2>
+<p>The python <strong>bytearray()</strong> returns a bytearray object and can convert objects into bytearray objects, or create an empty bytearray object of the specified size.</p>
+<p><strong>Python bytearray() Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+string = "Python is a programming language."
+
+# string with encoding 'utf-8'
+arr = bytearray(string, 'utf-8')
+print(arr)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+bytearray(b'Python is a programming language.')
+</pre></div>
+<hr/>
+<h2 class="h2">Python eval() Function</h2>
+<p>The python <strong>eval()</strong> function parses the expression passed to it and runs python expression(code) within the program.</p>
+<p><strong>Python eval() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+x = 8
+print(eval('x + 1'))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+9
+</pre></div>
+<hr/>
+<h2 class="h2">Python float()</h2>
+<p>The python <strong>float()</strong> function returns a floating-point number from a number or string.</p>
+<p><strong>Python float() Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# for integers
+print(float(9))
+
+# for floats
+print(float(8.19))
+
+# for string floats
+print(float("-24.27"))
+
+# for string floats with whitespaces
+print(float("     -17.19\n"))
+
+# string float error
+print(float("xyz"))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+9.0
+8.19
+-24.27
+-17.19
+ValueError: could not convert string to float: 'xyz'
+</pre></div>
+<hr/>
+<h2 class="h2">Python format() Function</h2>
+<p>The python <strong>format()</strong> function returns a formatted representation of the given value.</p>
+<p><strong>Python format() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# d, f and b are a type
+
+# integer
+print(format(123, "d"))
+
+# float arguments
+print(format(123.4567898, "f"))
+
+# binary format
+print(format(12, "b"))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+123
+123.456790
+1100
+</pre></div>
+<hr/>
+<h2 class="h2">Python frozenset()</h2>
+<p>The python <strong>frozenset()</strong> function returns an immutable frozenset object initialized with elements from the given iterable.</p>
+<p><strong>Python frozenset() Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# tuple of letters
+letters = ('m', 'r', 'o', 't', 's')
+
+fSet = frozenset(letters)
+print('Frozen set is:', fSet)
+print('Empty frozen set is:', frozenset())
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+Frozen set is: frozenset({'o', 'm', 's', 'r', 't'})
+Empty frozen set is: frozenset()
+</pre></div>
+<hr/>
+<h2 class="h2">Python getattr() Function</h2>
+<p>The python <strong>getattr()</strong> function returns the value of a named attribute of an object. If it is not found, it returns the default value.</p>
+<p><strong>Python getattr() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+class Details:
+    age = 22
+    name = "Phill"
+
+details = Details()
+print('The age is:', getattr(details, "age"))
+print('The age is:', details.age)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+The age is: 22
+The age is: 22
+</pre></div>
+<hr/>
+<h2 class="h2">Python globals() Function</h2>
+<p>The python <strong>globals()</strong> function returns the dictionary of the current global symbol table.</p>
+<p>A <strong>Symbol table</strong> is defined as a data structure which contains all the necessary information about the program. It includes variable names, methods, classes, etc.</p>
+<p><strong>Python globals() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+age = 22
+
+globals()['age'] = 22
+print('The age is:', age)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+The age is: 22
+</pre></div>
+<hr/>
+<h2 class="h2">Python hasattr() Function </h2>
+<p>The python <strong>any()</strong> function returns true if any item in an iterable is true, otherwise it returns False.</p>
+<p><strong>Python hasattr() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+l = [4, 3, 2, 0]                            
+print(any(l))                                 
+
+l = [0, False]
+print(any(l))
+
+l = [0, False, 5]
+print(any(l))
+
+l = []
+print(any(l))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+True
+False
+True
+False
+</pre></div>
+<hr/>
+<h2 class="h2">Python iter() Function </h2>
+<p>The python <strong>iter()</strong> function is used to return an iterator object. It creates an object which can be iterated one element at a time.</p>
+<p><strong>Python iter() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# list of numbers
+list = [1,2,3,4,5]
+
+listIter = iter(list)
+
+# prints '1'
+print(next(listIter))
+
+# prints '2'
+print(next(listIter))
+
+# prints '3'
+print(next(listIter))
+
+# prints '4'
+print(next(listIter))
+
+# prints '5'
+print(next(listIter))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+1
+2
+3
+4
+5
+</pre></div>
+<hr/>
+<h2 class="h2">Python len() Function </h2>
+<p>The python <strong>len()</strong> function is used to return the length (the number of items) of an object.</p>
+<p><strong>Python len() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+strA = 'Python'
+print(len(strA))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+6
+</pre></div>
+<h2 class="h2">Python list() </h2>
+<p>The python <strong>list()</strong> creates a list in python.</p>
+<p><strong>Python list() Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# empty list
+print(list())
+
+# string
+String = 'abcde'     
+print(list(String))
+
+# tuple
+Tuple = (1,2,3,4,5)
+print(list(Tuple))
+# list
+List = [1,2,3,4,5]
+print(list(List))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+[]
+['a', 'b', 'c', 'd', 'e']
+[1,2,3,4,5]
+[1,2,3,4,5]
+</pre></div>
+<hr/>
+<h2 class="h2">Python locals() Function </h2>
+<p>The python <strong>locals()</strong> method updates and returns the dictionary of the current local symbol table.</p>
+<p>A <strong>Symbol table</strong> is defined as a data structure which contains all the necessary information about the program. It includes variable names, methods, classes, etc.</p>
+<p><strong>Python locals() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+def localsAbsent():
+    return locals()
+
+def localsPresent():
+    present = True
+    return locals()
+
+print('localsNotPresent:', localsAbsent())
+print('localsPresent:', localsPresent())
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+localsAbsent: {}
+localsPresent: {'present': True}
+</pre></div>
+<hr/>
+<h2 class="h2">Python map() Function </h2>
+<p>The python <strong>map()</strong> function is used to return a list of results after applying a given function to each item of an iterable(list, tuple etc.).</p>
+<p><strong>Python map() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+def calculateAddition(n):
+  return n+n
+
+numbers = (1, 2, 3, 4)
+result = map(calculateAddition, numbers)
+print(result)
+
+# converting map object to set
+numbersAddition = set(result)
+print(numbersAddition)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+&lt;map object at 0x7fb04a6bec18&gt;
+{8, 2, 4, 6}
+</pre></div>
+<hr/>
+<h2 class="h2">Python memoryview() Function </h2>
+<p>The python <strong>memoryview()</strong> function returns a memoryview object of the given argument.</p>
+<p><strong>Python memoryview () Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+#A random bytearray
+randomByteArray = bytearray('ABC', 'utf-8')
+
+mv = memoryview(randomByteArray)
+
+# access the memory view's zeroth index
+print(mv[0])
+
+# It create byte from memory view
+print(bytes(mv[0:2]))
+
+# It create list from memory view
+print(list(mv[0:3]))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+65
+b'AB'
+[65, 66, 67]
+</pre></div>
+<hr/>
+<h2 class="h2">Python object() </h2>
+<p>The python <strong>object()</strong> returns an empty object. It is a base for all the classes and holds the built-in properties and methods which are default for all the classes.</p>
+<p><strong>Python object() Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+python = object()
+
+print(type(python))
+print(dir(python))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+&lt;class 'object'&gt;
+['__class__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', 
+'__getattribute__', '__gt__', '__hash__', '__init__', '__le__', '__lt__', '__ne__', 
+'__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', 
+'__str__', '__subclasshook__']
+</pre></div>
+<hr/>
+<h2 class="h2">Python open() Function </h2>
+<p>The python <strong>open()</strong> function opens the file and returns a corresponding file object.</p>
+<p><strong>Python open() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# opens python.text file of the current directory
+f = open("python.txt")
+# specifying full path
+f = open("C:/Python33/README.txt")
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+Since the mode is omitted, the file is opened in 'r' mode; opens for reading.
+</pre></div>
+<hr/>
+<h2 class="h2">Python chr() Function </h2>
+<p>Python <strong>chr()</strong> function is used to get a string representing a character which points to a Unicode code integer. For example, chr(97) returns the string 'a'. This function takes an integer argument and throws an error if it exceeds the specified range. The standard range of the argument is from 0 to 1,114,111.</p>
+<p><strong>Python chr() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# Calling function
+result = chr(102) # It returns string representation of a char
+result2 = chr(112)
+# Displaying result
+print(result)
+print(result2)
+# Verify, is it string type?
+print("is it string type:", type(result) is str)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+ValueError: chr() arg not in range(0x110000)
+</pre></div>
+<hr/>
+<h2 class="h2">Python complex() </h2>
+<p>Python <strong>complex()</strong> function is used to convert numbers or string into a complex number. This method takes two optional parameters and returns a complex number. The first parameter is called a real and second as imaginary parts.</p>
+<p><strong>Python complex() Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# Python complex() function example
+# Calling function
+a = complex(1) # Passing single parameter
+b = complex(1,2) # Passing both parameters
+# Displaying result
+print(a)
+print(b)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+(1.5+0j)
+(1.5+2.2j)
+</pre></div>
+<hr/>
+<h2 class="h2">Python delattr() Function </h2>
+<p>Python <strong>delattr()</strong> function is used to delete an attribute from a class. It takes two parameters, first is an object of the class and second is an attribute which we want to delete. After deleting the attribute, it no longer available in the class and throws an error if try to call it using the class object.</p>
+<p><strong>Python delattr() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+class Student:
+    id = 101
+    name = "Pranshu"
+    email = "pranshu@abc.com"
+# Declaring function
+    def getinfo(self):
+        print(self.id, self.name, self.email)
+s = Student()
+s.getinfo()
+delattr(Student,'course') # Removing attribute which is not available
+s.getinfo() # error: throws an error
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+101 Pranshu pranshu@abc.com
+AttributeError: course
+</pre></div>
+<hr/>
+<h2 class="h2">Python dir() Function </h2>
+<p>Python <strong>dir()</strong> function returns the list of names in the current local scope. If the object on which method is called has a method named __dir__(), this method will be called and must return the list of attributes. It takes a single object type argument. </p>
+<p><strong>Python dir() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# Calling function
+att = dir()
+# Displaying result
+print(att)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+['__annotations__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', 
+'__name__', '__package__', '__spec__']
+</pre></div>
+<hr/>
+<h2 class="h2">Python divmod() Function</h2>
+<p>Python <strong>divmod()</strong> function is used to get remainder and quotient of two numbers. This function takes two numeric arguments and returns a tuple. Both arguments are required and numeric</p>
+<p><strong>Python divmod() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# Python divmod() function example
+# Calling function
+result = divmod(10,2)
+# Displaying result
+print(result)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+(5, 0)
+</pre></div>
+<hr/>
+<h2 class="h2">Python enumerate() Function</h2>
+<p>Python <strong>enumerate()</strong> function returns an enumerated object. It takes two parameters, first is a sequence of elements and the second is the start index of the sequence. We can get the elements in sequence either through a loop or next() method.</p>
+<p><strong>Python enumerate() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# Calling function
+result = enumerate([1,2,3])
+# Displaying result
+print(result)
+print(list(result))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+&lt;enumerate object at 0x7ff641093d80&gt;
+[(0, 1), (1, 2), (2, 3)]
+</pre></div>
+<hr/>
+<h2 class="h2">Python dict()</h2>
+<p>Python <strong>dict()</strong> function is a constructor which creates a dictionary. Python dictionary provides three different constructors to create a dictionary:</p>
+<ul class="points">
+<li>If no argument is passed, it creates an empty dictionary.</li>
+<li>If a positional argument is given, a dictionary is created with the same key-value pairs. Otherwise, pass an iterable object.</li>
+<li>If keyword arguments are given, the keyword arguments and their values are added to the dictionary created from the positional argument.</li>
+</ul>
+<p><strong>Python dict() Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# Calling function
+result = dict() # returns an empty dictionary
+result2 = dict(a=1,b=2)
+# Displaying result
+print(result)
+print(result2)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+{}
+{'a': 1, 'b': 2}
+</pre></div>
+<hr/>
+<h2 class="h2">Python filter() Function</h2>
+<p>Python <strong>filter()</strong> function is used to get filtered elements. This function takes two arguments, first is a function and the second is iterable. The filter function returns a sequence of those elements of iterable object for which function returns <strong>true value</strong>.</p>
+<p>The first argument can be <strong>none</strong>, if the function is not available and returns only elements that are <strong>true</strong>.</p>
+<p><strong>Python filter() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# Python filter() function example
+def filterdata(x):
+    if x>5:
+        return x
+# Calling function
+result = filter(filterdata,(1,2,6))
+# Displaying result
+print(list(result))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+[6]
+</pre></div>
+<hr/>
+<h2 class="h2">Python hash() Function</h2>
+<p>Python <strong>hash()</strong> function is used to get the hash value of an object. Python calculates the hash value by using the hash algorithm. The hash values are integers and used to compare dictionary keys during a dictionary lookup. We can hash only the types which are given below:</p>
+<p><strong>Hashable types:</strong> * bool * int * long * float * string * Unicode * tuple * code object.</p>
+<p><strong>Python hash() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# Calling function
+result = hash(21) # integer value
+result2 = hash(22.2) # decimal value
+# Displaying result
+print(result)
+print(result2)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+21
+461168601842737174
+</pre></div>
+<hr/>
+<h2 class="h2">Python help() Function</h2>
+<p>Python <strong>help()</strong> function is used to get help related to the object passed during the call. It takes an optional parameter and returns help information. If no argument is given, it shows the Python help console. It internally calls python's help function.</p>
+<p><strong>Python help() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# Calling function
+info = help() # No argument
+# Displaying result
+print(info)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+Welcome to Python 3.5's help utility!
+</pre></div>
+<hr/>
+<h2 class="h2">Python min() Function</h2>
+<p>Python <strong>min()</strong> function is used to get the smallest element from the collection. This function takes two arguments, first is a collection of elements and second is key, and returns the smallest element from the collection.</p>
+<p><strong>Python min() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# Calling function
+small = min(2225,325,2025) # returns smallest element
+small2 = min(1000.25,2025.35,5625.36,10052.50)
+# Displaying result
+print(small)
+print(small2)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+325
+1000.25
+</pre></div>
+<hr/>
+<h2 class="h2">Python set() Function</h2>
+<p>In python, a set is a built-in class, and this function is a constructor of this class. It is used to create a new set using elements passed during the call. It takes an iterable object as an argument and returns a new set object. </p>
+<p><strong>Python set() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# Calling function
+result = set() # empty set
+result2 = set('12')
+result3 = set('javatpoint')
+# Displaying result
+print(result)
+print(result2)
+print(result3)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+set()
+{'1', '2'}
+{'a', 'n', 'v', 't', 'j', 'p', 'i', 'o'}
+</pre></div>
+<hr/>
+<h2 class="h2">Python hex() Function</h2>
+<p>Python <strong>hex()</strong> function is used to generate hex value of an integer argument. It takes an integer argument and returns an integer converted into a hexadecimal string. In case, we want to get a hexadecimal value of a float, then use float.hex() function. </p>
+<p><strong>Python hex() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# Calling function
+result = hex(1) 
+# integer value
+result2 = hex(342) 
+# Displaying result
+print(result)
+print(result2)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+0x1
+0x156
+</pre></div>
+<hr/>
+<h2 class="h2">Python id() Function</h2>
+<p>Python <strong>id()</strong> function returns the identity of an object. This is an integer which is guaranteed to be unique. This function takes an argument as an object and returns a unique integer number which represents identity. Two objects with non-overlapping lifetimes may have the same id() value.</p>
+<p><strong>Python id() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# Calling function
+val = id("Javatpoint") # string object
+val2 = id(1200) # integer object
+val3 = id([25,336,95,236,92,3225]) # List object
+# Displaying result
+print(val)
+print(val2)
+print(val3)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+139963782059696
+139963805666864
+139963781994504
+</pre></div>
+<hr/>
+<h2 class="h2">Python setattr() Function</h2>
+<p>Python <strong>setattr()</strong> function is used to set a value to the object's attribute. It takes three arguments, i.e., an object, a string, and an arbitrary value, and returns none. It is helpful when we want to add a new attribute to an object and set a value to it.</p>
+<p><strong>Python setattr() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+class Student:
+    id = 0
+    name = ""
+    
+    def __init__(self, id, name):
+        self.id = id
+        self.name = name
+        
+student = Student(102,"Sohan")
+print(student.id)
+print(student.name)
+#print(student.email) product error
+setattr(student, 'email','sohan@abc.com') # adding new attribute
+print(student.email)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+102
+Sohan
+sohan@abc.com
+</pre></div>
+<hr/>
+<h2 class="h2">Python slice() Function</h2>
+<p>Python <strong>slice()</strong> function is used to get a slice of elements from the collection of elements. Python provides two overloaded slice functions. The first function takes a single argument while the second function takes three arguments and returns a slice object. This slice object can be used to get a subsection of the collection.</p>
+<p><strong>Python slice() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# Calling function
+result = slice(5) # returns slice object
+result2 = slice(0,5,3) # returns slice object
+# Displaying result
+print(result)
+print(result2)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+slice(None, 5, None)
+slice(0, 5, 3)
+</pre></div>
+<hr/>
+<h2 class="h2">Python sorted() Function</h2>
+<p>Python <strong>sorted()</strong> function is used to sort elements. By default, it sorts elements in an ascending order but can be sorted in descending also. It takes four arguments and returns a collection in sorted order. In the case of a dictionary, it sorts only keys, not values.</p>
+<p><strong>Python sorted() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+str = "javatpoint" # declaring string
+# Calling function
+sorted1 = sorted(str) # sorting string
+# Displaying result
+print(sorted1)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+['a', 'a', 'i', 'j', 'n', 'o', 'p', 't', 't', 'v']
+</pre></div>
+<hr/>
+<h2 class="h2">Python next() Function</h2>
+<p>Python <strong>next()</strong> function is used to fetch next item from the collection. It takes two arguments, i.e., an iterator and a default value, and returns an element.</p>
+<p>This method calls on iterator and throws an error if no item is present. To avoid the error, we can set a default value.</p>
+<p><strong>Python next() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+number = iter([256, 32, 82]) # Creating iterator
+# Calling function
+item = next(number) 
+# Displaying result
+print(item)
+# second item
+item = next(number)
+print(item)
+# third item
+item = next(number)
+print(item)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+256
+32
+82
+</pre></div>
+<hr/>
+<h2 class="h2">Python input() Function</h2>
+<p>Python <strong>input()</strong> function is used to get an input from the user. It prompts for the user input and reads a line. After reading data, it converts it into a string and returns it. It throws an error <strong>EOFError</strong> if EOF is read.</p>
+<p><strong>Python input() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# Calling function
+val = input("Enter a value: ")
+# Displaying result
+print("You entered:",val)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+Enter a value: 45
+You entered: 45
+</pre></div>
+<hr/>
+<h2 class="h2">Python int() Function</h2>
+<p>Python <strong>int()</strong> function is used to get an integer value. It returns an expression converted into an integer number. If the argument is a floating-point, the conversion truncates the number. If the argument is outside the integer range, then it converts the number into a long type.</p>
+<p>If the number is not a number or if a base is given, the number must be a string.</p>
+<p><strong>Python int() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# Calling function
+val = int(10) # integer value
+val2 = int(10.52) # float value
+val3 = int('10') # string value
+# Displaying result
+print("integer values :",val, val2, val3)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+integer values : 10 10 10
+</pre></div>
+<hr/>
+<h2 class="h2">Python isinstance() Function</h2>
+<p>Python <strong>isinstance()</strong> function is used to check whether the given object is an instance of that class. If the object belongs to the class, it returns true. Otherwise returns False. It also returns true if the class is a subclass.</p>
+<p>The <strong>isinstance()</strong> function takes two arguments, i.e., object and classinfo, and then it returns either True or False.</p>
+<p><strong>Python isinstance() function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+class Student:
+    id = 101
+    name = "John"
+    def __init__(self, id, name):
+        self.id=id
+        self.name=name
+
+student = Student(1010,"John")
+lst = [12,34,5,6,767]
+# Calling function 
+print(isinstance(student, Student)) # isinstance of Student class
+print(isinstance(lst, Student))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+True
+False
+</pre></div>
+<hr/>
+<h2 class="h2">Python oct() Function</h2>
+<p>Python <strong>oct()</strong> function is used to get an octal value of an integer number. This method takes an argument and returns an integer converted into an octal string. It throws an error <strong>TypeError</strong>, if argument type is other than an integer.</p>
+<p><strong>Python oct() function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# Calling function
+val = oct(10)
+# Displaying result
+print("Octal value of 10:",val)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+Octal value of 10: 0o12
+</pre></div>
+<hr/>
+<h2 class="h2">Python ord() Function</h2>
+<p>The python <strong>ord()</strong> function returns an integer representing Unicode code point for the given Unicode character.</p>
+<p><strong>Python ord() function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# Code point of an integer
+print(ord('8'))
+
+# Code point of an alphabet 
+print(ord('R'))
+
+# Code point of a character
+print(ord('&'))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+56
+82
+38
+</pre></div>
+<hr/>
+<h2 class="h2">Python pow() Function</h2>
+<p>The python <strong>pow()</strong> function is used to compute the power of a number. It returns x to the power of y. If the third argument(z) is given, it returns x to the power of y modulus z, i.e. (x, y) % z.</p>
+<p><strong>Python pow() function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# positive x, positive y (x**y)
+print(pow(4, 2))
+
+# negative x, positive y
+print(pow(-4, 2))
+
+# positive x, negative y (x**-y)
+print(pow(4, -2))
+
+# negative x, negative y
+print(pow(-4, -2))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+16
+16
+0.0625
+0.0625
+</pre></div>
+<hr/>
+<h2 class="h2">Python print() Function</h2>
+<p>The python <strong>print()</strong> function prints the given object to the screen or other standard output devices.</p>
+<p><strong>Python print() function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+print("Python is programming language.")
+
+x = 7
+# Two objects passed
+print("x =", x)
+
+y = x
+# Three objects passed
+print('x =', x, '= y')
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+Python is programming language.
+x = 7
+x = 7 = y
+</pre></div>
+<hr/>
+<h2 class="h2">Python range() Function</h2>
+<p>The python <strong>range()</strong> function returns an immutable sequence of numbers starting from 0 by default, increments by 1 (by default) and ends at a specified number. </p>
+<p><strong>Python range() function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# empty range
+print(list(range(0)))
+
+# using the range(stop)
+print(list(range(4)))
+
+# using the range(start, stop)
+print(list(range(1,7 )))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+[]
+[0, 1, 2, 3]
+[1, 2, 3, 4, 5, 6]
+</pre></div>
+<hr/>
+<h2 class="h2">Python reversed() Function</h2>
+<p>The python <strong>reversed()</strong> function returns the reversed iterator of the given sequence.</p>
+<p><strong>Python reversed() function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+# for string
+String = 'Java'
+print(list(reversed(String)))
+
+# for tuple
+Tuple = ('J', 'a', 'v', 'a')
+print(list(reversed(Tuple)))
+
+# for range
+Range = range(8, 12)
+print(list(reversed(Range)))
+
+# for list
+List = [1, 2, 7, 5]
+print(list(reversed(List)))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+['a', 'v', 'a', 'J']
+['a', 'v', 'a', 'J']
+[11, 10, 9, 8]
+[5, 7, 2, 1]
+</pre></div>
+<hr/>
+<h2 class="h2">Python round() Function</h2>
+<p>The python <strong>round()</strong> function rounds off the digits of a number and returns the floating point number.</p>
+<p><strong>Python round() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+#  for integers
+print(round(10))
+
+#  for floating point
+print(round(10.8))
+
+#  even choice
+print(round(6.6))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+10
+11
+7
+</pre></div>
+<hr/>
+<h2 class="h2">Python issubclass() Function</h2>
+<p>The python <strong>issubclass()</strong> function returns true if object argument(first argument) is a subclass of second class(second argument).</p>
+<p><strong>Python issubclass() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+class Rectangle:
+  def __init__(rectangleType):
+    print('Rectangle is a ', rectangleType)
+
+class Square(Rectangle):
+  def __init__(self):
+    Rectangle.__init__('square')
+    
+print(issubclass(Square, Rectangle))
+print(issubclass(Square, list))
+print(issubclass(Square, (list, Rectangle)))
+print(issubclass(Rectangle, (list, Rectangle)))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+True
+False
+True
+True
+</pre></div>
+<hr/>
+<h2 class="h2">Python str</h2>
+<p>The python <strong>str()</strong> converts a specified value into a string. </p>
+<p><strong>Python str() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+str('4')
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+'4'
+</pre></div>
+<h2 class="h2">Python tuple() Function</h2>
+<p>The python <strong>tuple()</strong> function is used to create a tuple object.</p>
+<p><strong>Python tuple() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+t1 = tuple()
+print('t1=', t1)
+
+# creating a tuple from a list
+t2 = tuple([1, 6, 9])
+print('t2=', t2)
+
+# creating a tuple from a string
+t1 = tuple('Java')
+print('t1=',t1)
+
+# creating a tuple from a dictionary
+t1 = tuple({4: 'four', 5: 'five'})
+print('t1=',t1)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+t1= ()
+t2= (1, 6, 9)
+t1= ('J', 'a', 'v', 'a')
+t1= (4, 5)
+</pre></div>
+<hr/>
+<h2 class="h2">Python type()</h2>
+<p>The python <strong>type()</strong> returns the type of the specified object if a single argument is passed to the type() built in function. If three arguments are passed, then it returns a new type object.</p>
+<p><strong>Python type() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+List = [4, 5]
+print(type(List))
+
+Dict = {4: 'four', 5: 'five'}
+print(type(Dict))
+
+class Python:
+    a = 0
+
+InstanceOfPython = Python()
+print(type(InstanceOfPython))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+&lt;class 'list'&gt;
+&lt;class 'dict'&gt;
+&lt;class '__main__.Python'&gt;
+</pre></div>
+<hr/>
+<h2 class="h2">Python vars() function</h2>
+<p>The python <strong>vars()</strong> function returns the __dict__ attribute of the given object.</p>
+<p><strong>Python vars() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+class Python:
+  def __init__(self, x = 7, y = 9):
+    self.x = x
+    self.y = y
+  
+InstanceOfPython = Python()
+print(vars(InstanceOfPython))
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+{'y': 9, 'x': 7}
+</pre></div>
+<hr/>
+<h2 class="h2">Python zip() Function</h2>
+<p>The python <strong>zip()</strong> Function returns a zip object, which maps a similar index of multiple containers. It takes iterables (can be zero or more), makes it an iterator that aggregates the elements based on iterables passed, and returns an iterator of tuples.</p>
+<p><strong>Python zip() Function Example</strong></p>
+<div class="codeblock"><textarea name="code" class="python">
+numList = [4,5, 6]
+strList = ['four', 'five', 'six']
+
+# No iterables are passed
+result = zip()
+
+# Converting itertor to list
+resultList = list(result)
+print(resultList)
+
+# Two iterables are passed
+result = zip(numList, strList)
+
+# Converting itertor to set
+resultSet = set(result)
+print(resultSet)
+</textarea></div>
+<p><strong>Output:</strong></p>
+<div class="codeblock3"><pre>
+[]
+{(5, 'five'), (4, 'four'), (6, 'six')}
+</pre></div>
+
+<hr/>
+<div class="nexttopicdiv">
+<span class="nexttopictext">Next Topic</span><span class="nexttopiclink"><a href="python-lambda-functions.html">Python Lambda Functions</a></span>
+</div>
+<!-- link -->
+<br/><br/>
+
+<div id="bottomnext">
+<a style="float:left" class="next" href="python-functions.html">&larr; prev</a>
+<a style="float:right" class="next" href="python-lambda-functions.html">next &rarr;</a>
+</div>
+
+<br/><br/>
+</td></tr>
+</table>
+</div>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- AP_37780_300x250(0) -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4699858549023382"
+     data-ad-slot="5022809933"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+ 
+</div>
+
+
+<br><br/><div class="mobilemenu" style="clear:both">
+<ins class="adPushupAds" data-adpControl="jrfe7" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByZXNwb25zaXZlbW9iaWxlZm9vdGVyIC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTpibG9jayIKICAgICBkYXRhLWFkLWNsaWVudD0iY2EtcHViLTQ2OTk4NTg1NDkwMjMzODIiCiAgICAgZGF0YS1hZC1zbG90PSI4MjIyODY2MzE4IgogICAgIGRhdGEtYWQtZm9ybWF0PSJhdXRvIgogICAgIGRhdGEtZnVsbC13aWR0aC1yZXNwb25zaXZlPSJ0cnVlIj48L2lucz4KPHNjcmlwdD4KKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHt9KTsKPC9zY3JpcHQ+"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+</div></div>
+
+<div id="right">
+
+<ins class="adPushupAds" data-adpControl="am3c1" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBuZXdyaWdodCAtLT4KPGlucyBjbGFzcz0iYWRzYnlnb29nbGUiCiAgICAgc3R5bGU9ImRpc3BsYXk6YmxvY2siCiAgICAgZGF0YS1hZC1jbGllbnQ9ImNhLXB1Yi00Njk5ODU4NTQ5MDIzMzgyIgogICAgIGRhdGEtYWQtc2xvdD0iNjAzNDkxMjU0MSIKICAgICBkYXRhLWFkLWZvcm1hdD0iYXV0byIKICAgICBkYXRhLWZ1bGwtd2lkdGgtcmVzcG9uc2l2ZT0idHJ1ZSI+PC9pbnM+CjxzY3JpcHQ+CihhZHNieWdvb2dsZSA9IHdpbmRvdy5hZHNieWdvb2dsZSB8fCBbXSkucHVzaCh7fSk7Cjwvc2NyaXB0Pg=="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+<br/><br/>
+
+<ins class="adPushupAds" data-adpControl="am3c1" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSBuZXdyaWdodCAtLT4KPGlucyBjbGFzcz0iYWRzYnlnb29nbGUiCiAgICAgc3R5bGU9ImRpc3BsYXk6YmxvY2siCiAgICAgZGF0YS1hZC1jbGllbnQ9ImNhLXB1Yi00Njk5ODU4NTQ5MDIzMzgyIgogICAgIGRhdGEtYWQtc2xvdD0iNjAzNDkxMjU0MSIKICAgICBkYXRhLWFkLWZvcm1hdD0iYXV0byIKICAgICBkYXRhLWZ1bGwtd2lkdGgtcmVzcG9uc2l2ZT0idHJ1ZSI+PC9pbnM+CjxzY3JpcHQ+CihhZHNieWdvb2dsZSA9IHdpbmRvdy5hZHNieWdvb2dsZSB8fCBbXSkucHVzaCh7fSk7Cjwvc2NyaXB0Pg=="></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+<br/><br/>
+</div>
+
+<div class="right1024" style="float:left;margin-left:10px;margin-top:120px;">
+<!-- right1024only -->
+<ins class="adPushupAds" data-adpControl="6d5qg" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+<br/><br/>
+<ins class="adPushupAds" data-adpControl="6d5qg" data-ver="2" data-siteId="37780" data-ac="PHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KPCEtLSByaWdodDEwMjRvbmx5IC0tPgo8aW5zIGNsYXNzPSJhZHNieWdvb2dsZSIKICAgICBzdHlsZT0iZGlzcGxheTppbmxpbmUtYmxvY2s7d2lkdGg6MTIwcHg7aGVpZ2h0OjYwMHB4IgogICAgIGRhdGEtYWQtY2xpZW50PSJjYS1wdWItNDY5OTg1ODU0OTAyMzM4MiIKICAgICBkYXRhLWFkLXNsb3Q9IjIxODAxMTg3MTYiPjwvaW5zPgo8c2NyaXB0PgooYWRzYnlnb29nbGUgPSB3aW5kb3cuYWRzYnlnb29nbGUgfHwgW10pLnB1c2goe30pOwo8L3NjcmlwdD4K"></ins><script data-cfasync="false" type="text/javascript">(function (w, d) { for (var i = 0, j = d.getElementsByTagName("ins"), k = j[i]; i < j.length; k = j[++i]){ if(k.className == "adPushupAds" && k.getAttribute("data-push") != "1") { ((w.adpushup = w.adpushup || {}).control = (w.adpushup.control || [])).push(k); k.setAttribute("data-push", "1");} } })(window, document);</script>
+
+</div>
+<br/>
+
+</div>
+</div>
+</div>
+<script src="./js/shcoreandbrush.js">
+</script>
+<script>dp.SyntaxHighlighter.HighlightAll('code'); 
+</script>
+<script src=".js/lazysizes.min.js">-->
+<script src="./js/lazysizes.min.js" async></script>
+</body> 
+</html> 
