@@ -1,0 +1,57 @@
+body{
+    
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+.heading{
+    text-decoration: underline;
+}
+.flex-container{
+    display: flex;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: auto;
+    min-width: 300px;
+    flex-grow: 1;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #116149;
+    -webkit-box-shadow: 0 0 5px 2px #116149;
+    -moz-box-shadow: 0 0 5px 2px #116149;
+    box-shadow: 0 0 5px 2px #116149;
+}
+
+.one{
+    
+}
+.two{
+
+}
+
+.three{
+
+}
+.four{
+
+}
+
+button{
+    background-color: #34B168;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 3px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
